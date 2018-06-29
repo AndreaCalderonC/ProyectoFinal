@@ -74,13 +74,34 @@ demoTable=table(colb[,1])
 demoTableRel=round(prop.table(demoTable)*100,1)
 title='IDH'
 paleta='red'
-hist(colb$IDH,col=paleta, main = "IDH")
-hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera")
-hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto")
-
+hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
+hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
+hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
 
 @
-\caption{DistribuciÃ³n de Indicadores}
+\caption{Distribución de Indicadores}
+\label{hist}
+\end{figure}
+
+Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logaritmo en case 10 y quedaria asi:
+
+\begin{figure}[h]
+\centering
+<<hist, echo=FALSE,fig=TRUE>>=
+par(mfrow=c(1,2))
+
+paleta='blue'
+# dado el sesgo de las pobaciones, 
+# podriamos transformarla para que se acerque a la 
+# normalidad
+
+colb$cabeLog=log(colb$Poblacion.Cabecera)
+colb$restoLog=log(colb$Poblacion.Resto)
+
+hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
+hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
+@
+\caption{Distribución de Indicadores de Poblaciones Normalizado}
 \label{hist}
 \end{figure}
 
