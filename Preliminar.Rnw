@@ -137,9 +137,13 @@ corrTableX[upper.tri(corrTableX)]<-""
 corrTableX
 
 #visualmente:  
-plot(colb[,explanans])
+plot(colb[,explanans],main="Correlación Población Cabecera Vs Población Restante", xlab=" Población de Cabecera", col="blue",ylab= "Poblacion Restante")
 
 @
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
 
 
 
