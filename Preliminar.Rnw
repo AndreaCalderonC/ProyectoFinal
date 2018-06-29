@@ -43,7 +43,7 @@ filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
 
 # que variables y tipo
-str(colb)
+#str(colb)
 @
 
 \section{Exploración Univariada}\label{univariada}
@@ -66,7 +66,7 @@ stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = 
 
 \begin{figure}[h]
 \centering
-<<hist, echo=FALSE,fig=TRUE>>=
+<<hist1, echo=FALSE,fig=TRUE>>=
 par(mfrow=c(2,2))
 
 
@@ -80,7 +80,7 @@ hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valore
 
 @
 \caption{Distribuci�n de Indicadores}
-\label{hist}
+\label{hist1}
 \end{figure}
 
 Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logaritmo en case 10 y quedaria asi:

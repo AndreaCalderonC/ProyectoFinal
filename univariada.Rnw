@@ -52,7 +52,7 @@ Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logarit
 
 \begin{figure}[h]
 \centering
-<<hist, echo=FALSE,fig=TRUE>>=
+<<hist1, echo=FALSE,fig=TRUE>>=
 par(mfrow=c(1,2))
 
 paleta='blue'
@@ -67,7 +67,7 @@ hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normali
 hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
 @
 \caption{Distribución de Indicadores de Poblaciones Normalizado}
-\label{hist}
+\label{hist1}
 \end{figure}
 
 \endinput
