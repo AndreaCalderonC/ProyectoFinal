@@ -236,8 +236,8 @@ paleta = brewer.pal(numberOfClasses, colorForScale)
 # grafico mapa basico
 plot(mapCol,col='grey',border=0)
 
-plot(mapCol_idh, col = paleta[varToPLot],border=F,add=T)
-legend('left', legend = c("LOW","UP","MEDIUM"),
+plot(mapCol_idh,main="Clasificacion de departamentos por IDH", col = paleta[varToPLot],border=F,add=T)
+legend('left', legend = c("Bajo","Alto","Medio"),
        fill = paleta, 
        cex = 0.6, 
        bty = "n",
