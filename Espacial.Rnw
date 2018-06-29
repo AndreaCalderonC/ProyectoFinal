@@ -1,38 +1,13 @@
-\documentclass{article}
-
-\usepackage[utf8]{inputenc}
-\usepackage{longtable}
-\usepackage{authblk}
-\usepackage{adjustbox}
-
-\usepackage{natbib}
-
-
-
-\title{CARACTERIZACIÓN DE LOS INDICES DE DESARROLLO HUMANO EN COLOMBIA}
-% autores
-\renewcommand\Authand{, y }
-\author[1]{\normalsize Andrea Calderon Corredor}
-
-
-\affil[1]{\small  Facultad de Ingeniería,Universidad de los Andes\\
-\texttt{{a.calderon}@uniandes.edu.co}}
-\affil[1]{\small Herramientas Computacionales para la Investigacion\\}
-
-
-\date{29 de Junio de 2018}
-
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%INICIO%CONTENIDO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
-\begin{document}
-\SweaveOpts{concordance=TRUE}
 
-\maketitle
 
+
+\section{Exploración Espacial}\label{espacial}
 
 
 <<getData, echo=FALSE>>=
@@ -46,137 +21,9 @@ colb=read.csv(filename, stringsAsFactors = FALSE)
 #str(colb)
 @
 
-\section{Exploración Univariada}\label{univariada}
+Como acabamos de ver en la Tabla \ref{regresiones} en la pÃ¡gina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podrÃ?amos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlaciÃ³n). 
 
-Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
-
-<<summary, results=tex, echo=FALSE>>=
-library(stargazer)
-stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
-## estadisticos
-# nos interesa IDH, y poblacion cabecera y poblacion resto
-# no se puede secar tabla de frecuencia, 
-# solo estadisticos:
-# summary(colb)
-@
-\centering
-
-
-
-
-\begin{figure}[h]
-\centering
-<<hist1, echo=FALSE,fig=TRUE>>=
-par(mfrow=c(2,2))
-
-
-demoTable=table(colb[,1])
-demoTableRel=round(prop.table(demoTable)*100,1)
-title='IDH'
-paleta='red'
-hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
-hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
-hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
-
-@
-\caption{Distribuci?n de Indicadores}
-\label{hist1}
-\end{figure}
-
-Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logaritmo en case 10 y quedaria asi:
-
-\begin{figure}[h]
-\centering
-<<hist, echo=FALSE,fig=TRUE>>=
-par(mfrow=c(1,2))
-
-paleta='blue'
-# dado el sesgo de las pobaciones, 
-# podriamos transformarla para que se acerque a la 
-# normalidad
-
-colb$cabeLog=log(colb$Poblacion.Cabecera)
-colb$restoLog=log(colb$Poblacion.Resto)
-
-hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
-hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
-@
-\caption{Distribuci?n de Indicadores de Poblaciones Normalizado}
-\label{hist}
-\end{figure}
-
-
-
-
-\clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\section{Exploración Bivariada}\label{bivariada}
-
-
-
-<<correl, echo=FALSE,fig=TRUE>>=
-
-paleta='blue'
-# En este trabajo estamos interesados en el impacto de 
-# la poblacion en el el IDH, veamos IDH con cada uno:
-
-explanans=names(colb)[c(7:8)] # usando las logs
-corrDem=cor(colb$IDH,colb[,explanans],
-            use = "na.or.complete")
-corrDem
-
-    
-    
-# y la correlación entre las variables independientes:
-    
-corrTableX=round(cor(colb[,explanans],
-                         use = "na.or.complete"),2)
-corrTableX_copy=corrTableX
-corrTableX[upper.tri(corrTableX)]<-""
-#ver:
-corrTableX
-
-#visualmente:  
-plot(colb[,explanans],main="Correlación Población Cabecera Vs Población Restante", xlab=" Población de Cabecera", col="blue",ylab= "Población Restante")
-
-@
-
-\clearpage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%Regresion
-
-\section{Modelos de Regresion}
-
-En conclusión, vemos los modelos propuestos. Primero sin la poblacion restante como variable independiente, y luego con está. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
-
-<<regresiones, echo=FALSE>>=
-# Veamos los modelos propuestos. 
-# Primero sin poblacion resto, luego con esa:
-
-LinRegA = lm(IDH ~ ., data = colb[,c(1,7)])
-LinRegB = lm(IDH ~ ., data = colb[,c(1,7:8)])
-
-@
-
-
-<<regresionesPlot,results=tex, echo=false>>=
-stargazer(LinRegA,LinRegB,
-          title = "Modelos de Regresión", 
-          label = "regresiones")
-@
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-\section{ExploraciÃ³n Espacial}
-
-Como acabamos de ver en la Tabla \ref{regresiones} en la pÃ¡gina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podrÃ�amos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlaciÃ³n). 
-
-AsÃ�, propongo que calculemos conglomerados de paÃ�ses usando toda la informaciÃ³n de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeraciÃ³n donde las distancia serÃ¡n calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tÃ©cnica de {\bf medoides} segÃºn \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
+AsÃ?, propongo que calculemos conglomerados de paÃ?ses usando toda la informaciÃ³n de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeraciÃ³n donde las distancia serÃ¡n calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tÃ©cnica de {\bf medoides} segÃºn \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
 
 <<getMap, echo=FALSE,results=hide>>=
 library(rgdal)
@@ -244,15 +91,9 @@ legend('left', legend = c("Bajo","Alto","Medio"),
        title="Conglomerado")
 @
 
-\caption{Paises conglomerados segun sus indicadores sociopolÃ�ticos}\label{clustmap}
+\caption{Paises conglomerados segun sus indicadores sociopolÃ?ticos}\label{clustmap}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
-
-
-\bibliographystyle{apalike}
-\renewcommand{\refname}{Bibliografia}
-\bibliography{Bibliografia}
-\end{document}
+\endinput
