@@ -44,7 +44,7 @@ hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valo
 hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
 
 @
-\caption{Distribución de Indicadores}
+\caption{Distribuci?n de Indicadores}
 \label{hist}
 \end{figure}
 
@@ -66,7 +66,7 @@ colb$restoLog=log(colb$Poblacion.Resto)
 hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
 hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
 @
-\caption{Distribución de Indicadores de Poblaciones Normalizado}
+\caption{Distribuci?n de Indicadores de Poblaciones Normalizado}
 \label{hist1}
 \end{figure}
 
