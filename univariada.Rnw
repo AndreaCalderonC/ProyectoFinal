@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 \section{Exploraci??n Univariada}\label{univariada}
+=======
+\section{Exploraci?n Univariada}\label{univariada}
+>>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad
 
 
 

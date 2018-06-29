@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018) (preloaded format=xelatex 2018.4.16)  29 JUN 2018 17:21
+=======
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  29 JUN 2018 17:09
+>>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1119,7 +1123,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< HEAD
 l.33 \caption
+=======
+l.32 \caption
+>>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad
              {Distribuci?n de Indicadores}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1295,7 +1303,11 @@ Missing character: There is no [ in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no ] in font nullfont!
 ! Undefined control sequence.
+<<<<<<< HEAD
 l.41 \includegraphics
+=======
+l.40 \includegraphics
+>>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad
                      {univariada-hist1}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1326,7 +1338,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
+<<<<<<< HEAD
 l.42 \caption
+=======
+l.41 \caption
+>>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad
              {Distribuci?n de Indicadores de Poblaciones Normalizado}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1401,6 +1417,7 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  8 strings out of 492970
  99 string characters out of 6133938
  65642 words of memory out of 5000000
@@ -1409,3 +1426,13 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  19i,7n,12p,277b,125s stack positions out of 5000i,500n,10000p,200000b,80000s
 No pages of output.
+=======
+ 13 strings out of 493305
+ 256 string characters out of 3128497
+ 55825 words of memory out of 3000000
+ 3664 multiletter control sequences out of 15000+200000
+ 3640 words of font info for 14 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 19i,7n,12p,172b,125s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
+>>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad

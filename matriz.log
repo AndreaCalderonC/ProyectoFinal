@@ -1,12 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 17:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  29 JUN 2018 17:19
 entering extended mode
-**./Preliminar.tex
-(Preliminar.tex
+**./matriz.tex
+(matriz.tex
 LaTeX2e <2017-04-15>
 Babel <3.18> and hyphenation patterns for 75 language(s) loaded.
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cl
+s"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size10.clo
+"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -21,19 +24,20 @@ File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.sty
-"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\inputenc.s
+ty"
 Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
- ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -274,7 +278,8 @@ File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ot1enc.dfu
+"
 File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A0 (decimal 160)
    defining Unicode char U+00A1 (decimal 161)
@@ -314,7 +319,9 @@ File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
 )
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omsenc.dfu
+"
 File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -338,8 +345,8 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable.s
-ty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\tools\longtable
+.sty"
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip43
 \LTright=\skip44
@@ -357,8 +364,8 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count91
 \LT@p@ftn=\toks16
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\authblk.
-sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\preprint\authbl
+k.sty"
 Package: authblk 2001/02/27 1.3 (PWD)
 \affilsep=\skip47
 \@affilsep=\skip48
@@ -366,62 +373,62 @@ Package: authblk 2001/02/27 1.3 (PWD)
 \c@authors=\count93
 \c@affil=\count94
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjustb
-ox.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjus
+tbox.sty"
 Package: adjustbox 2018/04/08 v1.1 Adjusting TeX boxes (trim, clip, ...)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.s
-ty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\xkeyval\xkeyval
+.sty"
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyval
-.tex"
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvutil
-s.tex"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkeyv
+al.tex"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\xkvut
+ils.tex"
 \XKV@toks=\toks17
 \XKV@tempa@toks=\toks18
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyval.
-tex"))
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\xkeyval\keyva
+l.tex"))
 \XKV@depth=\count95
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjcalc
-.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\adjca
+lc.sty"
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimcli
-p.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\trimc
+lip.sty"
 Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx
-.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cx.sty"
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics
-.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphi
+cs.sty"
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
-"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.s
+ty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\grap
-hics.cfg"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\gr
+aphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pdft
-ex.def"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\pd
+ftex.def"
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\collec
-tbox.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\collectbox\coll
+ectbox.sty"
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box30
 )
@@ -431,8 +438,8 @@ Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \tc@ury=\dimen109
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pdft
-ex.def"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\adjustbox\tc-pd
+ftex.def"
 File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 ))
 \adjbox@Width=\dimen110
@@ -444,34 +451,35 @@ File: tc-pdftex.def 2018/04/08 v2.1 Clipping driver for pdftex
 \adjbox@pdepth=\dimen116
 \adjbox@ptotalheight=\dimen117
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifoddpa
-ge.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ifoddpage\ifodd
+page.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
 \c@checkoddpage=\count96
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidth.
-sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ltxmisc\varwidt
+h.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box31
 \sift@deathcycles=\count97
 \@vwid@loff=\dimen118
 \@vwid@roff=\dimen119
 ))
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.sty
-"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\natbib\natbib.s
+ty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip49
 \bibsep=\skip50
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count98
-) (C:/PROGRA~1/R/R-34~1.1/share/texmf/tex/latex\Sweave.sty
+) (C:/PROGRA~1/R/R-35~1.0/share/texmf/tex/latex\Sweave.sty
 Package: Sweave 
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+"
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyvrb
-.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancyvrb\fancyv
+rb.sty"
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -483,8 +491,8 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count101
 \FV@OutFile=\write3
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.sty
-"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\textcomp.s
+ty"
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -498,11 +506,15 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             Family '?' is the default used for unknown fonts.
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
- ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.def
+"
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
- ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1enc.dfu
+"
 File: ts1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
@@ -638,50 +650,52 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
-)) ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\ae.sty"
+)) ("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\ae.sty"
 Package: ae 2001/02/12 1.3 Almost European Computer Modern
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\fontenc.st
+y"
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
+
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 )
 LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
-
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
+ ("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
-))))
-(Preliminar.aux)
-\openout1 = `Preliminar.aux'.
+)))) (matriz.aux)
+\openout1 = `matriz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
+LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    ... okay on input line 22.
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
-kii"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count102
 \scratchdimen=\dimen120
@@ -695,40 +709,40 @@ kii"
 \makeMPintoPDFobject=\count107
 \everyMPtoPDFconversion=\toks20
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstopdf
--base.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\epstop
+df-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infwar
-err.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\infw
+arerr.sty"
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext.s
-ty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\grfext
+.sty"
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvdefi
-nekeys.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvde
+finekeys.sty"
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxcmd
-s.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ltxc
+mds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )))
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvoption
-s.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\oberdiek\kvopti
+ons.sty"
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvsetk
-eys.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\kvse
+tkeys.sty"
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etexcm
-ds.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\etex
+cmds.sty"
 Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifluat
-ex.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\iflu
+atex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -737,13 +751,13 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 )))
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdftex
-cmds.sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\pdft
+excmds.sty"
 Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.
-sty"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\generic\oberdiek\ifpd
+f.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 Package pdftexcmds Info: LuaTeX not detected.
@@ -757,84 +771,75 @@ Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
-) (Preliminar-concordance.tex)
+) (matriz-concordance.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 35.
+(Font)              <7> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 35.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 35.
+(Font)              <5> on input line 25.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 25.
 
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
+("C:\Users\SANTIAGO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 35.
+(Font)              <9> on input line 25.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 35.
-
-Overfull \hbox (62.11792pt too wide) in paragraph at lines 49--60
- [][] 
- []
-
-<Preliminar-hist1.pdf, id=2, 433.62pt x 433.62pt>
-File: Preliminar-hist1.pdf Graphic file (type pdf)
-<use Preliminar-hist1.pdf>
-Package pdftex.def Info: Preliminar-hist1.pdf  used on input line 67.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Preliminar-hist.pdf, id=3, 433.62pt x 433.62pt>
-File: Preliminar-hist.pdf Graphic file (type pdf)
-<use Preliminar-hist.pdf>
-Package pdftex.def Info: Preliminar-hist.pdf  used on input line 76.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+(Font)              <6> on input line 25.
 
 [1
 
-{C:/Users/LENOVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./Prel
-iminar-hist1.pdf>] [3 <./Preliminar-hist.pdf>]
-<Preliminar-correl.pdf, id=34, 433.62pt x 433.62pt>
-File: Preliminar-correl.pdf Graphic file (type pdf)
-<use Preliminar-correl.pdf>
-Package pdftex.def Info: Preliminar-correl.pdf  used on input line 101.
+{C:/Users/SANTIAGO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \hbox (9.84618pt too wide) in paragraph at lines 46--47
+[]\T1/aer/m/n/10 Países con Medio de-sar-rollo Hu-mano (Medium Hu-man De-vel-o
+p-ment). Tienen
+ []
+
+[2] (univariada.tex
+Overfull \hbox (62.11792pt too wide) in paragraph at lines 13--24
+ [][] 
+ []
+
+<univariada-hist.pdf, id=18, 433.62pt x 433.62pt>
+File: univariada-hist.pdf Graphic file (type pdf)
+<use univariada-hist.pdf>
+Package pdftex.def Info: univariada-hist.pdf  used on input line 31.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
- [4
+<univariada-hist1.pdf, id=19, 433.62pt x 433.62pt>
+File: univariada-hist1.pdf Graphic file (type pdf)
+<use univariada-hist1.pdf>
+Package pdftex.def Info: univariada-hist1.pdf  used on input line 40.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
- <./Preliminar-correl.pdf>]
-No file Preliminar.bbl.
-[5
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-] (Preliminar.aux) ) 
+)
+No file matriz.bbl.
+[3
+
+ <./univariada-hist.pdf>] [4 <./univariada-hist1.pdf>] (matriz.aux) ) 
 Here is how much of TeX's memory you used:
- 4479 strings out of 493305
- 64859 string characters out of 3129367
- 119671 words of memory out of 3000000
- 7896 multiletter control sequences out of 15000+200000
- 30082 words of font info for 62 fonts, out of 3000000 for 9000
+ 4474 strings out of 493305
+ 64865 string characters out of 3128497
+ 120448 words of memory out of 3000000
+ 7890 multiletter control sequences out of 15000+200000
+ 29541 words of font info for 61 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,279b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmbx12.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/LENOVO/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/LENOVO/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/U
-sers/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
-r17.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr6.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr7.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/LENOVO/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/LENOVO/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/User
-s/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Preliminar.pdf (5 pages, 159924 bytes).
+ 41i,8n,37p,1245b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/
+SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx1
+2.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/a
+msfonts/cm/cmbx9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SANTIAGO/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/SAN
+TIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb
+><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on matriz.pdf (4 pages, 125438 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
+ 66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 20 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 15 words of extra memory for PDF output out of 10000 (max. 10000000)
 
