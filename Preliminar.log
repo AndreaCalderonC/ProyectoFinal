@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 17:20
 entering extended mode
 **./Preliminar.tex
 (Preliminar.tex
@@ -771,29 +771,15 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 35.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 35.
-LaTeX Font Info:    Try loading font information for TS1+aett on input line 41.
 
-
-(C:/PROGRA~1/R/R-34~1.1/share/texmf/tex/latex\ts1aett.fd
-File: ts1aett.fd 
-)
-LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 41.
-
-
-("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmtt.fd"
-File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `TS1/aett/m/n' in size <10> not available
-(Font)              Font shape `TS1/cmtt/m/n' tried instead on input line 41.
-
-Overfull \hbox (62.11792pt too wide) in paragraph at lines 60--71
+Overfull \hbox (62.11792pt too wide) in paragraph at lines 49--60
  [][] 
  []
 
 <Preliminar-hist1.pdf, id=2, 433.62pt x 433.62pt>
 File: Preliminar-hist1.pdf Graphic file (type pdf)
 <use Preliminar-hist1.pdf>
-Package pdftex.def Info: Preliminar-hist1.pdf  used on input line 78.
+Package pdftex.def Info: Preliminar-hist1.pdf  used on input line 67.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -801,41 +787,50 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <Preliminar-hist.pdf, id=3, 433.62pt x 433.62pt>
 File: Preliminar-hist.pdf Graphic file (type pdf)
 <use Preliminar-hist.pdf>
-Package pdftex.def Info: Preliminar-hist.pdf  used on input line 87.
+Package pdftex.def Info: Preliminar-hist.pdf  used on input line 76.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<Preliminar-correl.pdf, id=4, 433.62pt x 433.62pt>
+File: Preliminar-correl.pdf Graphic file (type pdf)
+<use Preliminar-correl.pdf>
+Package pdftex.def Info: Preliminar-correl.pdf  used on input line 101.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 No file Preliminar.bbl.
 [1
 
-{C:/Users/LENOVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2 <./Prel
-iminar-hist1.pdf>] [3 <./Preliminar-hist.pdf>] (Preliminar.aux) ) 
+{C:/Users/LENOVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
+Overfull \vbox (41.96774pt too high) has occurred while \output is active []
+
+
+[2 <./Preliminar-hist1.pdf> <./Preliminar-correl.pdf>] [3 <./Preliminar-hist.pd
+f>] (Preliminar.aux) ) 
 Here is how much of TeX's memory you used:
- 4494 strings out of 493305
- 65354 string characters out of 3129367
- 119655 words of memory out of 3000000
- 7908 multiletter control sequences out of 15000+200000
- 27895 words of font info for 60 fonts, out of 3000000 for 9000
+ 4474 strings out of 493305
+ 64788 string characters out of 3129367
+ 119663 words of memory out of 3000000
+ 7894 multiletter control sequences out of 15000+200000
+ 27598 words of font info for 59 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,37p,279b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\LEN
-OVO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tctt1000.pk><C:
-/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmbx12.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/LENOVO/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/LENOVO/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/LENOV
-O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
-/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
-cmr7.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr9.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmtt10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on Preliminar.pdf (3 pages, 126650 bytes).
+<C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/LENOVO/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Users/LENO
+VO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmr12.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/LENOVO/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/LENOVO/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/LENOVO/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/
+Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt9.pfb>
+Output written on Preliminar.pdf (3 pages, 136329 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 15 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 20 words of extra memory for PDF output out of 10000 (max. 10000000)
 

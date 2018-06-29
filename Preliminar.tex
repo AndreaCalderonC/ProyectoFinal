@@ -36,24 +36,13 @@
 
 
 
-\begin{Schunk}
-\begin{Soutput}
-'data.frame':	32 obs. of  6 variables:
- $ IDH               : num  0.879 0.867 0.865 0.849 0.842 0.839 0.837 0.835 0.834 0.832 ...
- $ Departamento      : chr  "Santander" "Casanare" "Valle del Cauca" "Antioquia" ...
- $ Poblacion.Cabecera: int  1587972 281548 4169553 5262172 742812 761658 10070801 2438533 56487 506254 ...
- $ Poblacion.Resto   : int  502867 93701 586560 1428858 539251 206109 914484 107391 21926 68756 ...
- $ Poblacion.Total   : int  2090839 375249 4756113 6691030 1282063 967767 10985285 2545924 78413 575010 ...
- $ DepartamentoNorm  : chr  "Santander" "Casanare" "Valle del Cauca" "Antioquia" ...
-\end{Soutput}
-\end{Schunk}
 
 \section{Exploración Univariada}\label{univariada}
 
 Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: vie., jun. 29, 2018 - 5:01:42 p.m.
+% Date and time: vie., jun. 29, 2018 - 5:20:19 p.m.
 \begin{table}[!htbp] \centering 
   \caption{Medidas estadísticas} 
   \label{stats} 
@@ -88,6 +77,32 @@ Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logarit
 \caption{Distribuci<f3>n de Indicadores de Poblaciones Normalizado}
 \label{hist}
 \end{figure}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\section{Exploraci<f3>n Bivariada}\label{bivariada}
+
+
+
+\begin{Schunk}
+\begin{Soutput}
+       cabeLog  restoLog
+[1,] 0.4873974 0.1773112
+\end{Soutput}
+\begin{Soutput}
+         cabeLog restoLog
+cabeLog  "1"     ""      
+restoLog "0.84"  "1"     
+\end{Soutput}
+\end{Schunk}
+\includegraphics{Preliminar-correl}
+
+
+
+
 
 
 \bibliographystyle{apalike}

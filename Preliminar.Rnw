@@ -106,6 +106,46 @@ hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Norma
 \end{figure}
 
 
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\section{Exploración Bivariada}\label{bivariada}
+
+
+
+<<correl, echo=FALSE,fig=TRUE>>=
+
+paleta='blue'
+# En este trabajo estamos interesados en el impacto de 
+# la poblacion en el el IDH, veamos IDH con cada uno:
+
+explanans=names(colb)[c(7:8)] # usando las logs
+corrDem=cor(colb$IDH,colb[,explanans],
+            use = "na.or.complete")
+corrDem
+
+    
+    
+# y la correlaciÃ³n entre las variables independientes:
+    
+corrTableX=round(cor(colb[,explanans],
+                         use = "na.or.complete"),2)
+corrTableX_copy=corrTableX
+corrTableX[upper.tri(corrTableX)]<-""
+#ver:
+corrTableX
+
+#visualmente:  
+plot(colb[,explanans])
+
+@
+
+
+
+
+
+
 \bibliographystyle{apalike}
 \renewcommand{\refname}{Bibliografia}
 \bibliography{Bibliografia}
