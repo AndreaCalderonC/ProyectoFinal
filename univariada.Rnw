@@ -1,4 +1,4 @@
-\section{Exploraci√≥n Univariada}\label{univariada}
+\section{Exploraci??n Univariada}\label{univariada}
 
 
 
@@ -13,11 +13,14 @@ colb=read.csv(filename, stringsAsFactors = FALSE)
 #str(colb)
 @
 
-Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
+El estudio esta fundamentado en \cite{misas_a._desarrollo_2001} se hizo para los 32 departamentos de Colombia y mediante este, se determino que nuestro pais ocupa la casilla 91 dentro del listado de 186 paises a los que las Naciones Unidas para el Desarrollo (PNUD) le miden el Indice de Desarrollo Humano (IDH). 
+Esto la ubica por debajo de paises como Panama, Peru y Cuba, y representa una perdida de cuatro puestos respecto a su ubicacion en el estudio del 2012.  
+En el documento "El Ascenso del Sur: Progreso Humano en un Mundo Diverso", del PNUD, se muestran algunos avances en materia de educacion en toda Latinoamerica, pero Colombia sigue teniendo ciertos inconvenientes en este sentido.  
+El estudio revela que los ni??os en Colombia estudian en promedio 7,3 a??os mientras el "periodo esperado de escolaridad" son 13,6. 
 
 <<summary, results=tex, echo=FALSE>>=
 library(stargazer)
-stargazer(colb, title = "Medidas estad√≠sticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
+stargazer(colb, title = "Medidas estad??sticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
 ## estadisticos
 # nos interesa IDH, y poblacion cabecera y poblacion resto
 # no se puede secar tabla de frecuencia, 
@@ -25,8 +28,6 @@ stargazer(colb, title = "Medidas estad√≠sticas", label = "stats",summary.stat = 
 # summary(colb)
 @
 \centering
-
-
 
 
 \begin{figure}[h]
@@ -44,11 +45,23 @@ hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valo
 hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
 
 @
-\caption{DistribuciÛn de Indicadores}
+\caption{Distribuci?n de Indicadores}
 \label{hist}
 \end{figure}
 
-Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logaritmo en case 10 y quedaria asi:
+America Latina ha logrado "impresionantes avances" en desarrollo humano con el ascenso de millones de personas a una nueva clase media, aunque sigue siendo la regi??n mas desigual del planeta, segun el informe 2013 del PNUD presentado este jueves en Mexico. 
+El estudio basado en los niveles de longevidad, educacion e ingresos en 187 paises- encontro que el Indice de Desarrollo Humano (IDH) latinoamericano crecio anualmente una media de 0,67 porcentaje entre 2000 y 2012, "el mayor incremento de entre todas las regiones". 
+Entre los paises latinoamericanos hay tres (Barbados, Chile y Argentina) en el grupo de desarrollo humano muy alto, 19 en el alto, otros 10 en el medio y Haiti como el unico pais en el grupo bajo, describio el Programa de las Naciones Unidas para el Desarrollo (PNUD). 
+El listado mundial es liderado por Noruega, seguido de Australia, Estados Unidos y los Paises Bajos. En ese ranking universal, Chile, que es el primero de America Latina, ocupa el puesto 40; Argentina estaa en el 45; Uruguay en el 51; Cuba y Panama en el 59; Mexico en el 61 y Costa Rica en el 62. 
+Los peores latinoamericanos de la lista son Haiti, que esta en el lugar 161, Nicaragua en el 129 y Honduras en el 120. 
+Para 2030, America Latina y el Caribe sera el hogar de uno de cada diez miembros de una emergente clase media global, mas formada, comprometida e interconectada, augura el PNUD. 
+La region registra una esperanza de vida de 74,7 a??os, casi cinco a??os superior a la media mundial, asi como 7,8 a??os en promedio de escolarizacion, la segunda posici??n global. 
+El organismo atribuye este avance de America Latina a "estados fuertes" que se han integrado en la economia y comercio mundial, con unas exportaciones que superan el 6 porciento del total mundial. 
+El organismo destaca los logros de los gobiernos de Brasil, Mexico y Chile, a los que considera "pioneros" en la innovacion de politicas sociales. 
+A pesar de que estas iniciativas han logrado resultados contra la pobreza, el PNUD asegura que "La desigualdad de ingresos en America Latina ha caido en la mayor??a de pa??ses desde 2000 (...) pero sigue teniendo la distribucion de riqueza mas desigual de todas las regiones del mundo???.
+
+Lo mostrado en el diagrama \ref{hist} fue extraido acorde a \cite{konrad-adenauer-stiftung_indice_2003} 
+:
 
 \begin{figure}[h]
 \centering
@@ -66,7 +79,7 @@ colb$restoLog=log(colb$Poblacion.Resto)
 hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
 hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
 @
-\caption{DistribuciÛn de Indicadores de Poblaciones Normalizado}
+\caption{Distribuci?n de Indicadores de Poblaciones Normalizado}
 \label{hist1}
 \end{figure}
 
