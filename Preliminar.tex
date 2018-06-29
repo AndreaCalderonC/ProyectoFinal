@@ -42,7 +42,7 @@
 Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: vie., jun. 29, 2018 - 5:42:00 p.m.
+% Date and time: vie., jun. 29, 2018 - 6:42:49 p.m.
 \begin{table}[!htbp] \centering 
   \caption{Medidas estadísticas} 
   \label{stats} 
@@ -106,12 +106,12 @@ restoLog "0.84"  "1"
 
 \section{Modelos de Regresion}
 
-Finalmente, vemos los modelos propuestos. Primero sin la poblacion restante como independiente, y luego con est?. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
+En conclusión, vemos los modelos propuestos. Primero sin la poblacion restante como variable independiente, y luego con está. Los resultados se muestran en la Tabla \ref{regresiones} de la página \pageref{regresiones}.
 
 
 
 % Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
-% Date and time: vie., jun. 29, 2018 - 5:42:06 p.m.
+% Date and time: vie., jun. 29, 2018 - 6:42:54 p.m.
 \begin{table}[!htbp] \centering 
   \caption{Modelos de Regresión} 
   \label{regresiones} 
@@ -150,7 +150,32 @@ F Statistic & 9.347$^{***}$ (df = 1; 30) & 10.706$^{***}$ (df = 2; 29) \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
+\section{ExploraciÃ³n Espacial}
 
+Como acabamos de ver en la Tabla \ref{regresiones} en la pÃ¡gina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podrÃ<U+00AD>amos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlaciÃ³n). 
+
+AsÃ<U+00AD>, propongo que calculemos conglomerados de paÃ<U+00AD>ses usando toda la informaciÃ³n de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeraciÃ³n donde las distancia serÃ¡n calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tÃ©cnica de {\bf medoides} segÃºn \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
+
+
+
+
+
+
+\begin{figure}[h]
+\centering
+\begin{Schunk}
+\begin{Soutput}
+  Group.1       IDH  cabeLog restoLog
+1       1 0.7890000 11.42861 11.21085
+2       2 0.7944545 13.54188 12.74991
+3       3 0.8575000 15.28062 13.57715
+\end{Soutput}
+\end{Schunk}
+\includegraphics{Preliminar-plotMap1}
+
+\caption{Paises conglomerados segun sus indicadores sociopolÃ<U+00AD>ticos}\label{clustmap}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 
