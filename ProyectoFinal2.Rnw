@@ -1,0 +1,91 @@
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{authblk}
+\usepackage{adjustbox}
+
+\usepackage{natbib}
+
+
+
+\title{CARACTERIZACIÓN DE LOS INDICES DE DESARROLLO HUMANO EN COLOMBIA}
+% autores
+\renewcommand\Authand{, y }
+\author[1]{\normalsize Andrea Calderon Corredor}
+
+
+\affil[1]{\small  Facultad de Ingeniería,Universidad de los Andes\\
+\texttt{{a.calderon}@uniandes.edu.co}}
+\affil[1]{\small Herramientas Computacionales para la Investigacion\\}
+
+
+\date{29 de Junio de 2018}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%INICIO%CONTENIDO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
+
+
+
+<<getData, echo=FALSE>>=
+# Cargar archivo ----
+
+# NO OLVIDAR set working directory
+filename="colombia.csv"
+colb=read.csv(filename, stringsAsFactors = FALSE)
+
+# que variables y tipo
+str(colb)
+@
+
+\section{Exploración Univariada}\label{univariada}
+
+Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
+
+<<summary, results=tex, echo=FALSE>>=
+library(stargazer)
+stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
+## estadisticos
+# nos interesa IDH, y poblacion cabecera y poblacion resto
+# no se puede secar tabla de frecuencia, 
+# solo estadisticos:
+# summary(colb)
+@
+\centering
+
+
+
+
+\begin{figure}[h]
+\centering
+<<hist, echo=FALSE,fig=TRUE>>=
+par(mfrow=c(2,2))
+
+
+demoTable=table(colb[,1])
+demoTableRel=round(prop.table(demoTable)*100,1)
+title='IDH'
+paleta='red'
+hist(colb$IDH,col=paleta, main = "IDH")
+hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera")
+hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto")
+
+
+@
+\caption{Distribución de Indicadores}
+\label{hist}
+\end{figure}
+
+
+\bibliographystyle{apalike}
+\renewcommand{\refname}{Bibliografia}
+\bibliography{Bibliografia}
+\end{document}
