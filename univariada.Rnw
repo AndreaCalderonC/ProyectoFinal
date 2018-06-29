@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-\section{Exploraci??n Univariada}\label{univariada}
-=======
-\section{Exploraci?n Univariada}\label{univariada}
->>>>>>> 89dcf29e5b31ddb0d151fffe93ffa6d59bf5d5ad
+\section{Exploracion Univariada}\label{univariada}
 
-
+En esta seccion se hara la exploracion univariada para el Indice de Desarrollo Humano en Colombia.
 
 <<getData, echo=FALSE>>=
 # Cargar archivo ----
@@ -18,12 +14,15 @@ colb=read.csv(filename, stringsAsFactors = FALSE)
 @
 
 El estudio esta fundamentado en \cite{misas_a._desarrollo_2001} se hizo para los 32 departamentos de Colombia y mediante este, se determino que nuestro pais ocupa la casilla 91 dentro del listado de 186 paises a los que las Naciones Unidas para el Desarrollo (PNUD) le miden el Indice de Desarrollo Humano (IDH). 
-Esto la ubica por debajo de paises como Panama, Peru y Cuba, y representa una perdida de cuatro puestos respecto a su ubicacion en el estudio del 2012.  
-En el documento "El Ascenso del Sur: Progreso Humano en un Mundo Diverso", del PNUD, se muestran algunos avances en materia de educacion en toda Latinoamerica, pero Colombia sigue teniendo ciertos inconvenientes en este sentido.  
-El estudio revela que los ni??os en Colombia estudian en promedio 7,3 a??os mientras el "periodo esperado de escolaridad" son 13,6. 
+Esto la ubica por debajo de paises como Panama, Peru y Cuba, y representa una perdida de cuatro puestos respecto a su ubicacion en el estudio del 2012.
+
+El articulo "El Ascenso del Sur: Progreso Humano en un Mundo Diverso", del PNUD, muestra algunos avances en materia de educacion en toda Latinoamerica, pero Colombia sigue teniendo ciertos inconvenientes en este sentido.  
+El estudio revela que los ninos en Colombia estudian en promedio 7,3 anos mientras el "periodo esperado de escolaridad" son 13,6. 
 
 <<summary, results=tex, echo=FALSE>>=
 library(stargazer)
+library(reporttools)
+
 stargazer(colb, title = "Medidas estad??sticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
 ## estadisticos
 # nos interesa IDH, y poblacion cabecera y poblacion resto
@@ -33,6 +32,9 @@ stargazer(colb, title = "Medidas estad??sticas", label = "stats",summary.stat = 
 @
 \centering
 
+\clearpage
+
+Teniendo en cuenta lo anterior, la siguiente grafica muestra el indice de Desarrollo Humano en cada uno de los departamentos de Colombia:
 
 \begin{figure}[h]
 \centering
@@ -59,13 +61,12 @@ Entre los paises latinoamericanos hay tres (Barbados, Chile y Argentina) en el g
 El listado mundial es liderado por Noruega, seguido de Australia, Estados Unidos y los Paises Bajos. En ese ranking universal, Chile, que es el primero de America Latina, ocupa el puesto 40; Argentina estaa en el 45; Uruguay en el 51; Cuba y Panama en el 59; Mexico en el 61 y Costa Rica en el 62. 
 Los peores latinoamericanos de la lista son Haiti, que esta en el lugar 161, Nicaragua en el 129 y Honduras en el 120. 
 Para 2030, America Latina y el Caribe sera el hogar de uno de cada diez miembros de una emergente clase media global, mas formada, comprometida e interconectada, augura el PNUD. 
-La region registra una esperanza de vida de 74,7 a??os, casi cinco a??os superior a la media mundial, asi como 7,8 a??os en promedio de escolarizacion, la segunda posici??n global. 
+La region registra una esperanza de vida de 74,7 anos, casi cinco anos superior a la media mundial, asi como 7,8 anos en promedio de escolarizacion, la segunda posicion global. 
 El organismo atribuye este avance de America Latina a "estados fuertes" que se han integrado en la economia y comercio mundial, con unas exportaciones que superan el 6 porciento del total mundial. 
 El organismo destaca los logros de los gobiernos de Brasil, Mexico y Chile, a los que considera "pioneros" en la innovacion de politicas sociales. 
-A pesar de que estas iniciativas han logrado resultados contra la pobreza, el PNUD asegura que "La desigualdad de ingresos en America Latina ha caido en la mayor??a de pa??ses desde 2000 (...) pero sigue teniendo la distribucion de riqueza mas desigual de todas las regiones del mundo???.
+A pesar de que estas iniciativas han logrado resultados contra la pobreza, el PNUD asegura que "La desigualdad de ingresos en America Latina ha caido en la mayoria de paises desde 2000, pero sigue teniendo la distribucion de riqueza mas desigual de todas las regiones del mundo.
 
-Lo mostrado en el diagrama \ref{hist} fue extraido acorde a \cite{konrad-adenauer-stiftung_indice_2003} 
-:
+Lo mostrado en el diagrama \ref{hist} fue extraido acorde a \cite{konrad-adenauer-stiftung_indice_2003}.
 
 \begin{figure}[h]
 \centering
