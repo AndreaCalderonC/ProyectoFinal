@@ -79,7 +79,7 @@ hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valo
 hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
 
 @
-\caption{Distribuci髇 de Indicadores}
+\caption{Distribuci?n de Indicadores}
 \label{hist1}
 \end{figure}
 
@@ -101,16 +101,16 @@ colb$restoLog=log(colb$Poblacion.Resto)
 hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
 hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
 @
-\caption{Distribuci髇 de Indicadores de Poblaciones Normalizado}
+\caption{Distribuci?n de Indicadores de Poblaciones Normalizado}
 \label{hist}
 \end{figure}
 
 
 
 
-
+\clearpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
-\section{Exploraci髇 Bivariada}\label{bivariada}
+\section{Exploraci贸n Bivariada}\label{bivariada}
 
 
 
@@ -137,9 +137,37 @@ corrTableX[upper.tri(corrTableX)]<-""
 corrTableX
 
 #visualmente:  
-plot(colb[,explanans],main="Correlaci髇 Poblaci髇 Cabecera Vs Poblaci髇 Restante", xlab=" Poblaci髇 de Cabecera", col="blue",ylab= "Poblacion Restante")
+plot(colb[,explanans],main="Correlaci贸n Poblaci贸n Cabecera Vs Poblaci贸n Restante", xlab=" Poblaci贸n de Cabecera", col="blue",ylab= "Poblaci贸n Restante")
 
 @
+
+\clearpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%Regresion
+
+\section{Modelos de Regresion}
+
+En conclusi贸n, vemos los modelos propuestos. Primero sin la poblacion restante como variable independiente, y luego con est谩. Los resultados se muestran en la Tabla \ref{regresiones} de la p谩gina \pageref{regresiones}.
+
+<<regresiones, echo=FALSE>>=
+# Veamos los modelos propuestos. 
+# Primero sin poblacion resto, luego con esa:
+
+LinRegA = lm(IDH ~ ., data = colb[,c(1,7)])
+LinRegB = lm(IDH ~ ., data = colb[,c(1,7:8)])
+
+@
+
+
+<<regresionesPlot,results=tex, echo=false>>=
+stargazer(LinRegA,LinRegB,
+          title = "Modelos de Regresi贸n", 
+          label = "regresiones")
+@
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
