@@ -1,4 +1,4 @@
-\section{ExploraciÃ³n Univariada}\label{univariada}
+\section{Exploración Univariada}\label{univariada}
 
 
 
