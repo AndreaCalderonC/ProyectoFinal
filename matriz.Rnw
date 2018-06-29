@@ -12,12 +12,14 @@
 \title{CARACTERIZACIÃ“N DE LOS INDICES DE DESARROLLO HUMANO EN COLOMBIA}
 % autores
 \renewcommand\Authand{, y }
-\author[1]{\normalsize Andrea Calderon Corredor}
+\author[1]{\normalsize Carolina Barreto Naranjo}
+\author[2]{\normalsize Andrea Calderon Corredor}
+\author[3]{\normalsize Andrea Blanco Zarta}
 
 
-\affil[1]{\small  Facultad de IngenierÃ­a,Universidad de los Andes\\
-\texttt{{a.calderon}@uniandes.edu.co}}
-\affil[1]{\small Herramientas Computacionales para la Investigacion\\}
+\affil[1,2,3]{\small  Facultad de IngenierÃ­a,Universidad de los Andes\\
+\texttt{{c.barreto805,a.calderon,a.blanco}@uniandes.edu.co}}
+\affil[1,2,3]{\small Herramientas Computacionales para la Investigacion\\}
 
 
 \date{29 de Junio de 2018}
@@ -79,7 +81,7 @@ hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valo
 hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
 
 @
-\caption{Distribución de Indicadores}
+\caption{Distribuci?n de Indicadores}
 \label{hist}
 \end{figure}
 
@@ -101,7 +103,7 @@ colb$restoLog=log(colb$Poblacion.Resto)
 hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
 hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
 @
-\caption{Distribución de Indicadores de Poblaciones Normalizado}
+\caption{Distribuci?n de Indicadores de Poblaciones Normalizado}
 \label{hist}
 \end{figure}
 
