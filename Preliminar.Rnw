@@ -1,4 +1,37 @@
-\section{Exploración Univariada}\label{univariada}
+\documentclass{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{longtable}
+\usepackage{authblk}
+\usepackage{adjustbox}
+
+\usepackage{natbib}
+
+
+
+\title{CARACTERIZACIÓN DE LOS INDICES DE DESARROLLO HUMANO EN COLOMBIA}
+% autores
+\renewcommand\Authand{, y }
+\author[1]{\normalsize Andrea Calderon Corredor}
+
+
+\affil[1]{\small  Facultad de Ingeniería,Universidad de los Andes\\
+\texttt{{a.calderon}@uniandes.edu.co}}
+\affil[1]{\small Herramientas Computacionales para la Investigacion\\}
+
+
+\date{29 de Junio de 2018}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%INICIO%CONTENIDO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+
+\maketitle
 
 
 
@@ -10,8 +43,10 @@ filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
 
 # que variables y tipo
-#str(colb)
+str(colb)
 @
+
+\section{Exploración Univariada}\label{univariada}
 
 Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
 
@@ -70,4 +105,8 @@ hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Norma
 \label{hist}
 \end{figure}
 
-\endinput
+
+\bibliographystyle{apalike}
+\renewcommand{\refname}{Bibliografia}
+\bibliography{Bibliografia}
+\end{document}

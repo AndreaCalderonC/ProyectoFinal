@@ -21,8 +21,8 @@ plot(summary(colb))
 # el plot de cada uno seria el histograma:
 
 hist(colb$IDH)
-hist(colb$Población.Cabecera)
-hist(colb$Población.Resto)
+hist(colb$Poblacion.Cabecera)
+hist(colb$Poblacion.Resto)
 
 # dado el sesgo de las pobaciones, 
 # podriamos transformarla para que se acerque a la 
