@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 19:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  29 JUN 2018 19:17
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -657,7 +657,7 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
-(matriz.aux)
+No file matriz.aux.
 \openout1 = `matriz.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -674,7 +674,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
-
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -780,17 +779,23 @@ Overfull \hbox (9.84618pt too wide) in paragraph at lines 46--47
 p-ment). Tienen
  []
 
+
+LaTeX Warning: Reference `univariada' on page 2 undefined on input line 60.
+
+
+LaTeX Warning: Reference `univariada' on page 2 undefined on input line 60.
+
 [2] (univariada.tex
 Overfull \hbox (62.11792pt too wide) in paragraph at lines 13--24
  [][] 
  []
 
-<univariada-hist.pdf, id=18, 433.62pt x 433.62pt>
+<univariada-hist.pdf, id=19, 433.62pt x 433.62pt>
 File: univariada-hist.pdf Graphic file (type pdf)
 <use univariada-hist.pdf>
 Package pdftex.def Info: univariada-hist.pdf  used on input line 31.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-<univariada-hist1.pdf, id=19, 433.62pt x 433.62pt>
+<univariada-hist1.pdf, id=20, 433.62pt x 433.62pt>
 File: univariada-hist1.pdf Graphic file (type pdf)
 <use univariada-hist1.pdf>
 Package pdftex.def Info: univariada-hist1.pdf  used on input line 40.
@@ -801,33 +806,94 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ) (bivariada.tex [3
 
  <./univariada-hist.pdf>]
-<bivariada-correl.pdf, id=29, 433.62pt x 433.62pt>
+<bivariada-correl.pdf, id=30, 433.62pt x 433.62pt>
 File: bivariada-correl.pdf Graphic file (type pdf)
 <use bivariada-correl.pdf>
 Package pdftex.def Info: bivariada-correl.pdf  used on input line 16.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+) (regresion.tex [4 <./univariada-hist1.pdf>]
+
+LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 12.
+
+
+LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 12.
+
+) (espacial.tex
+
+LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 5.
+
+
+LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 5.
+
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 5.
+(C:/PROGRA~1/R/R-34~1.1/share/texmf/tex/latex\ts1aer.fd
+File: ts1aer.fd 
 )
+LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 5.
 
-! LaTeX Error: File `regresion.tex' not found.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
+Package natbib Warning: Citation `gower_general_1971' on page 5 undefined on in
+put line 7.
 
-Enter file name: 
-! Emergency stop.
-<read *> 
-         
-l.66 \input{regresion.tex}
-                          
-*** (cannot \read from terminal in nonstop modes)
 
- 
+Package natbib Warning: Citation `reynolds_clustering_2006' on page 5 undefined
+ on input line 7.
+
+
+LaTeX Warning: Reference `clustmap' on page 5 undefined on input line 7.
+
+<espacial-plotMap1.pdf, id=41, 433.62pt x 433.62pt>
+File: espacial-plotMap1.pdf Graphic file (type pdf)
+<use espacial-plotMap1.pdf>
+Package pdftex.def Info: espacial-plotMap1.pdf  used on input line 24.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)
+No file matriz.bbl.
+
+Package natbib Warning: There were undefined citations.
+
+[5 <./bivariada-correl.pdf>] [6] [7 <./espacial-plotMap1.pdf>] (matriz.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4477 strings out of 493305
- 64721 string characters out of 3129367
- 120440 words of memory out of 3000000
- 7890 multiletter control sequences out of 15000+200000
- 29862 words of font info for 62 fonts, out of 3000000 for 9000
+ 4536 strings out of 493305
+ 65655 string characters out of 3129367
+ 121416 words of memory out of 3000000
+ 7928 multiletter control sequences out of 15000+200000
+ 35993 words of font info for 73 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,37p,1245b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 41i,9n,37p,1245b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\LENOVO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\tcrm1000.pk><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/LENOVO/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/LENOVO/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/L
+ENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pf
+b><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr17.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/LENOVO/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/LENOVO/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/LENOV
+O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/c
+m/cmsy7.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/LENOVO/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on matriz.pdf (7 pages, 636834 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
+

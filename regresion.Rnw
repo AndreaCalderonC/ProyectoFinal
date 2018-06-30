@@ -33,6 +33,7 @@ LinRegB = lm(IDH ~ ., data = colb[,c(1,7:8)])
 
 
 <<regresionesPlot,results=tex, echo=false>>=
+library(stargazer)
 stargazer(LinRegA,LinRegB,
           title = "Modelos de Regresión", 
           label = "regresiones")

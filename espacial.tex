@@ -1,0 +1,31 @@
+\section{Exploración Espacial}\label{espacial}
+
+
+
+Como acabamos de ver en la Tabla \ref{regresiones} en la pÃ¡gina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podrÃ?amos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlaciÃ³n). 
+
+AsÃ?, propongo que calculemos conglomerados de paÃ?ses usando toda la informaciÃ³n de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeraciÃ³n donde las distancia serÃ¡n calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tÃ©cnica de {\bf medoides} segÃºn \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
+
+
+
+
+
+
+\begin{figure}[h]
+\centering
+\begin{Schunk}
+\begin{Soutput}
+  Group.1       IDH  cabeLog restoLog
+1       1 0.7944545 13.54188 12.74991
+2       2 0.7890000 11.42861 11.21085
+3       3 0.8575000 15.28062 13.57715
+\end{Soutput}
+\end{Schunk}
+\includegraphics{espacial-plotMap1}
+
+\caption{Paises conglomerados segun sus indicadores sociopolÃ?ticos}\label{clustmap}
+\end{figure}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\endinput

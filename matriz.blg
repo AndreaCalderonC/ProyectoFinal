@@ -1,0 +1,11 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: matriz.aux
+The style file: apalike.bst
+I couldn't open database file Colombia.bib
+---line 16 of file matriz.aux
+ : \bibdata{Colombia
+ :                  }
+I'm skipping whatever remains of this command
+I found no database files---while reading file matriz.aux
+Warning--I didn't find a database entry for "gower_general_1971"
+Warning--I didn't find a database entry for "reynolds_clustering_2006"
+(There were 2 error messages)
