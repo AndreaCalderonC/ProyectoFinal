@@ -59,7 +59,6 @@ mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
 
 
 \begin{figure}[h]
-\centering
 <<plotMap1, echo=FALSE, fig=TRUE>>=
 library(RColorBrewer)
 library(classInt)
@@ -82,8 +81,7 @@ legend('left', legend = c("Bajo","Alto","Medio"),
        bty = "n",
        title="Conglomerado")
 @
-
-\caption{Paises conglomerados segun sus indicadores sociopolÃ?ticos}\label{clustmap}
+\caption{Paises conglomerados segun sus indicadores sociopolíticos}\label{clustmap}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
