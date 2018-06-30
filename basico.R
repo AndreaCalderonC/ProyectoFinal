@@ -28,8 +28,8 @@ hist(colb$Poblacion.Resto)
 # podriamos transformarla para que se acerque a la 
 # normalidad
 
-colb$cabeLog=log(colb$Población.Cabecera)
-colb$restoLog=log(colb$Población.Resto)
+colb$cabeLog=log(colb$Poblacion.Cabecera)
+colb$restoLog=log(colb$Poblacion.Resto)
 
 hist(colb$cabeLog)
 hist(colb$restoLog)
