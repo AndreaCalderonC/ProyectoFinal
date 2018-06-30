@@ -1,0 +1,47 @@
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+\section{Exploración Bivariada}\label{bivariada}
+
+<<getData, echo=FALSE>>=
+# Cargar archivo ----
+
+# NO OLVIDAR set working directory
+filename="colombia.csv"
+colb=read.csv(filename, stringsAsFactors = FALSE)
+
+# que variables y tipo
+#str(colb)
+@
+
+<<correl, echo=FALSE,fig=TRUE>>=
+
+paleta='blue'
+# En este trabajo estamos interesados en el impacto de 
+# la poblacion en el el IDH, veamos IDH con cada uno:
+
+explanans=names(colb)[c(7:8)] # usando las logs
+corrDem=cor(colb$IDH,colb[,explanans],
+            use = "na.or.complete")
+corrDem
+
+    
+    
+# y la correlación entre las variables independientes:
+    
+corrTableX=round(cor(colb[,explanans],
+                         use = "na.or.complete"),2)
+corrTableX_copy=corrTableX
+corrTableX[upper.tri(corrTableX)]<-""
+#ver:
+corrTableX
+
+#visualmente:  
+plot(colb[,explanans],main="Correlación Población Cabecera Vs Población Restante", xlab=" Población de Cabecera", col="blue",ylab= "Población Restante")
+
+@
+
+\clearpage
+\endinput
