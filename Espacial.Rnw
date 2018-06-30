@@ -1,12 +1,3 @@
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%INICIO%CONTENIDO%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-
-
 \section{Exploración Espacial}\label{espacial}
 
 
@@ -16,7 +7,8 @@
 # NO OLVIDAR set working directory
 filename="colombia.csv"
 colb=read.csv(filename, stringsAsFactors = FALSE)
-
+colb$cabeLog=log(colb$Poblacion.Cabecera)
+colb$restoLog=log(colb$Poblacion.Resto)
 # que variables y tipo
 #str(colb)
 @

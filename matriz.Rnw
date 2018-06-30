@@ -62,7 +62,7 @@ Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref
 
 \input{univariada.tex}
 \input{bivariada.tex}
-%\input{regresion.tex}
+\input{regresion.tex}
 \input{espacial.tex}
 
 \bibliographystyle{apalike}
