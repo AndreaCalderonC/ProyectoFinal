@@ -29,8 +29,6 @@ El Programa de Naciones Unidas para el Desarrollo (PNUD) señala que Colombia ti
 
 En el Índice de Desarrollo Humano (IDH) en América Latina, Colombia se ubica en la casilla número 12, muy por debajo de Chile, Argentina, Uruguay y Cuba. Sólo supera a naciones como El Salvador, Guatemala y Bolivia. Según el informe en nuestro país los niños estudian en promedio 7,3 años, mientras el “período esperado de escolaridad” son 13,6.
 
-\clearpage
-
 Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 \begin{figure}[h]
