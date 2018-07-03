@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  2 JUL 2018 22:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  2 JUL 2018 22:28
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -786,46 +786,59 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 25.
 
+
+LaTeX Warning: Reference `univariada' on page 1 undefined on input line 36.
+
+
+LaTeX Warning: Reference `univariada' on page 1 undefined on input line 36.
+
 [1
 
 {C:/Users/SANTIAGO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (univariada.tex
-Overfull \hbox (62.11792pt too wide) in paragraph at lines 13--24
+Overfull \hbox (62.11792pt too wide) in paragraph at lines 15--26
  [][] 
  []
 
-[2
-
-]
-<univariada-hist.pdf, id=18, 433.62pt x 433.62pt>
-File: univariada-hist.pdf Graphic file (type pdf)
-<use univariada-hist.pdf>
-Package pdftex.def Info: univariada-hist.pdf  used on input line 33.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-<univariada-hist1.pdf, id=19, 433.62pt x 433.62pt>
-File: univariada-hist1.pdf Graphic file (type pdf)
-<use univariada-hist1.pdf>
-Package pdftex.def Info: univariada-hist1.pdf  used on input line 41.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) [3
-
- <./univariada-hist.pdf>] [4 <./univariada-hist1.pdf>] (bivariada.tex
-<bivariada-correl.pdf, id=38, 433.62pt x 433.62pt>
+) (bivariada.tex
+<bivariada-correl.pdf, id=16, 433.62pt x 433.62pt>
 File: bivariada-correl.pdf Graphic file (type pdf)
 <use bivariada-correl.pdf>
 Package pdftex.def Info: bivariada-correl.pdf  used on input line 16.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-)
-[5
+) (regresion.tex
 
- <./bivariada-correl.pdf>] (regresion.tex) [6
+LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 12.
 
-] (espacial.tex
-<espacial-plotMap1.pdf, id=56, 433.62pt x 433.62pt>
+
+LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 12.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 \begin{table}[!htbp]
+                          \centering
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (espacial.tex
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11 \begin{figure}[h]
+                      
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<espacial-plotMap1.pdf, id=17, 433.62pt x 433.62pt>
 File: espacial-plotMap1.pdf Graphic file (type pdf)
 <use espacial-plotMap1.pdf>
 Package pdftex.def Info: espacial-plotMap1.pdf  used on input line 20.
@@ -834,38 +847,71 @@ Package pdftex.def Info: espacial-plotMap1.pdf  used on input line 20.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [7
+)
 
- <./espacial-plotMap1.pdf>] (matriz.aux) ) 
+! LaTeX Error: \begin{figure} on input line 29 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+(matriz.aux)
+
+LaTeX Warning: There were undefined references.
+
+! You can't use `\end' in internal vertical mode.
+\enddocument ... \endgroup \deadcycles \z@ \@@end 
+                                                  
+l.57 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+! LaTeX Error: \begin{figure} on input line 29 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.57 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.57 \end{document}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> ./matriz.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
 Here is how much of TeX's memory you used:
- 4508 strings out of 493305
- 65594 string characters out of 3128497
- 120500 words of memory out of 3000000
- 7905 multiletter control sequences out of 15000+200000
- 32872 words of font info for 67 fonts, out of 3000000 for 9000
+ 4491 strings out of 493305
+ 65263 string characters out of 3128497
+ 125428 words of memory out of 3000000
+ 7888 multiletter control sequences out of 15000+200000
+ 34791 words of font info for 69 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,9n,37p,949b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/SANTIAGO/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SANTIAGO/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Us
-ers/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmr10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SANTIAGO/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/SANTIAGO/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
-SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
-pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmr9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/SANTIAGO/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/SANT
-IAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
-b><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmtt9.pfb>
-Output written on matriz.pdf (7 pages, 618806 bytes).
-PDF statistics:
- 110 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 25 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 41i,10n,37p,949b,368s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

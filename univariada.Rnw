@@ -15,7 +15,6 @@ El Programa de Naciones Unidas para el Desarrollo (PNUD) señala que Colombia ti
 
 En el Índice de Desarrollo Humano (IDH) en América Latina, Colombia se ubica en la casilla número 12, muy por debajo de Chile, Argentina, Uruguay y Cuba. Sólo supera a naciones como El Salvador, Guatemala y Bolivia. Según el informe en nuestro país los niños estudian en promedio 7,3 años, mientras el “período esperado de escolaridad” son 13,6.
 
-La población de Colombia se concentra en las áreas andinas y en la costa del Atlántico, donde se aprecian los núcleos demográficos de la sabana de Bogotá, conformado por Bogotá y Soacha, del valle de Aburrá, que comprende a Medellín, Bello e Itagüí, del Valle del Cauca, compuesto por Cali y Palmira. Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 <<summary, results=tex, echo=FALSE>>=
 library(stargazer)
@@ -23,7 +22,9 @@ stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = 
 
 @
 
+La población de Colombia se concentra en las áreas andinas y en la costa del Atlántico, donde se aprecian los núcleos demográficos de la sabana de Bogotá, conformado por Bogotá y Soacha, del valle de Aburrá, que comprende a Medellín, Bello e Itagüí, del Valle del Cauca, compuesto por Cali y Palmira. Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
+Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 \begin{figure}[h]
 
@@ -44,7 +45,8 @@ hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valore
 \label{hist}
 \end{figure}
 
-Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
+Esta concepción requiere que la medición del nivel de desarrollo humano de un determinado país, comunidad o grupo social, no se base solamente en componentes económicos que, aunque también son importantes considerar, constituyen una aproximación incompleta dado la complejidad del proceso señalado. Dentro del esquema propuesto por el PNUD se procura enfatizar en la gran divergencia existente entre niveles de riqueza material y de desarrollo humano. Por esta razón, el principal objetivo subyacente en la construcción del IDH es proporcionar referencias cuantitativas de las privaciones humanas y de las distancias existentes con respecto a metas posibles de alcanzar y monitorear la eficacia de las políticas en curso. 
+
 
 \begin{figure}[h]
 <<hist1, echo=FALSE,fig=TRUE>>=
@@ -64,5 +66,7 @@ hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Norma
 \caption{Distribuciòn de Indicadores de Poblaciones Normalizado}
 \label{hist1}
 \end{figure}
+
+Precisamente, en este trabajo se intenta realizar una descripción basada en la síntesis de los tres aspectos esenciales mencionados, motivados especialmente por cierta paradoja estadística que explicamos a continuación: desde que el PNUD iniciara el cálculo del IDH en 1990, Argentina se encuentra en el grupo de países con desarrollo humano ALTO, aunque su posición en el ránking mundial fue variando desde el puesto 43 en 1991 al Nº 30 en 1996 y al lugar Nº 39 en 1999, a tal punto de figurar entre los primeros puestos en el conjunto de países latinoamericanos. Pero, al tratarse de un promedio nacional, el indicador oculta importantes diferencias en la distribución regional y provincial de los distintos aspectos del desarrollo humano y por lo tanto merece que nos ocupemos de observar la situación real de las provincias y en forma particular de las que forman el Nordeste Colombiano.
 
 \endinput
