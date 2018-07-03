@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  2 JUL 2018 21:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  2 JUL 2018 22:05
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -790,40 +790,41 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/SANTIAGO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (univariada.tex
-Overfull \hbox (62.11792pt too wide) in paragraph at lines 15--26
+Overfull \hbox (62.11792pt too wide) in paragraph at lines 13--24
  [][] 
  []
 
-<univariada-hist.pdf, id=15, 433.62pt x 433.62pt>
+[2
+
+]
+<univariada-hist.pdf, id=18, 433.62pt x 433.62pt>
 File: univariada-hist.pdf Graphic file (type pdf)
 <use univariada-hist.pdf>
 Package pdftex.def Info: univariada-hist.pdf  used on input line 33.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<univariada-hist1.pdf, id=16, 433.62pt x 433.62pt>
+<univariada-hist1.pdf, id=19, 433.62pt x 433.62pt>
 File: univariada-hist1.pdf Graphic file (type pdf)
 <use univariada-hist1.pdf>
 Package pdftex.def Info: univariada-hist1.pdf  used on input line 41.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
+
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 ) (bivariada.tex
-<bivariada-correl.pdf, id=17, 433.62pt x 433.62pt>
+<bivariada-correl.pdf, id=20, 433.62pt x 433.62pt>
 File: bivariada-correl.pdf Graphic file (type pdf)
 <use bivariada-correl.pdf>
 Package pdftex.def Info: bivariada-correl.pdf  used on input line 16.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-) (regresion.tex [2
+) (regresion.tex [3
 
-]
+ <./univariada-hist.pdf>]
 Overfull \vbox (41.96774pt too high) has occurred while \output is active []
 
 
-[3 <./univariada-hist.pdf> <./bivariada-correl.pdf>]) (espacial.tex
-<espacial-plotMap1.pdf, id=37, 433.62pt x 433.62pt>
+[4 <./univariada-hist1.pdf> <./bivariada-correl.pdf>]) (espacial.tex
+<espacial-plotMap1.pdf, id=46, 433.62pt x 433.62pt>
 File: espacial-plotMap1.pdf Graphic file (type pdf)
 <use espacial-plotMap1.pdf>
 Package pdftex.def Info: espacial-plotMap1.pdf  used on input line 20.
@@ -836,8 +837,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [4 <./univariada-hist1.pdf>] [5] [6 <./espacial-plotMap1.pdf>] (matriz.aux) )
- 
+) [5] [6 <./espacial-plotMap1.pdf>] (matriz.aux) ) 
 Here is how much of TeX's memory you used:
  4508 strings out of 493305
  65594 string characters out of 3128497
@@ -846,24 +846,25 @@ Here is how much of TeX's memory you used:
  32872 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,37p,949b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmbx9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/SANTIAGO/AppData/Local
-/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/SANTIAG
-O/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C
+<C:/Users/SANTIAGO/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAN
+TIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pf
+b><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SANTIAGO/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/SANTIA
+GO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
 :/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr17.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/amsfonts/cm/cmr6.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/SANTIAGO/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/SANTIAGO/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
-s/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cms
-y7.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmti10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/SANTIAGO/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on matriz.pdf (6 pages, 618452 bytes).
+cm/cmr7.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SANTIAGO/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/SANTIAGO/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
+ers/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mtt10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmtt9.pfb>
+Output written on matriz.pdf (6 pages, 618140 bytes).
 PDF statistics:
  105 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

@@ -25,9 +25,13 @@ stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = 
 # summary(colb)
 @
 
+El Programa de Naciones Unidas para el Desarrollo (PNUD) señala que Colombia tiene un alto desarrollo humano. El país ocupa el puesto 91 entre 186, en un informe que evalúa los logros de las naciones en educación y salud, y la disponibilidad de recursos para ofrecerles a sus habitantes un nivel de vida digno.
+
+En el Índice de Desarrollo Humano (IDH) en América Latina, Colombia se ubica en la casilla número 12, muy por debajo de Chile, Argentina, Uruguay y Cuba. Sólo supera a naciones como El Salvador, Guatemala y Bolivia. Según el informe en nuestro país los niños estudian en promedio 7,3 años, mientras el “período esperado de escolaridad” son 13,6.
 
 \clearpage
 
+Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 \begin{figure}[h]
 
@@ -48,7 +52,7 @@ hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valore
 \label{hist}
 \end{figure}
 
-Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logaritmo en case 10 y quedaria asi:
+Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 \begin{figure}[h]
 <<hist1, echo=FALSE,fig=TRUE>>=
@@ -65,7 +69,7 @@ colb$restoLog=log(colb$Poblacion.Resto)
 hist(colb$cabeLog,col=paleta, main = "Poblacion Cabecera", xlab="Valores Normalizados", ylab="Frecuencia")
 hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Normalizados", ylab="Frecuencia")
 @
-\caption{Distribuci?n de Indicadores de Poblaciones Normalizado}
+\caption{Distribuciòn de Indicadores de Poblaciones Normalizado}
 \label{hist1}
 \end{figure}
 
