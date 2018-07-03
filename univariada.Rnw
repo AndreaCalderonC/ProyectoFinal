@@ -1,7 +1,5 @@
 \section{Exploración Univariada}\label{univariada}
 
-
-
 <<getData, echo=FALSE>>=
 # Cargar archivo ----
 
@@ -13,27 +11,23 @@ colb=read.csv(filename, stringsAsFactors = FALSE)
 #str(colb)
 @
 
+El Programa de Naciones Unidas para el Desarrollo (PNUD) señala que Colombia tiene un alto desarrollo humano. El país ocupa el puesto 91 entre 186, en un informe que evalúa los logros de las naciones en educación y salud, y la disponibilidad de recursos para ofrecerles a sus habitantes un nivel de vida digno.
+
+En el Índice de Desarrollo Humano (IDH) en América Latina, Colombia se ubica en la casilla número 12, muy por debajo de Chile, Argentina, Uruguay y Cuba. Sólo supera a naciones como El Salvador, Guatemala y Bolivia. Según el informe en nuestro país los niños estudian en promedio 7,3 años, mientras el “período esperado de escolaridad” son 13,6.
+
 La población de Colombia se concentra en las áreas andinas y en la costa del Atlántico, donde se aprecian los núcleos demográficos de la sabana de Bogotá, conformado por Bogotá y Soacha, del valle de Aburrá, que comprende a Medellín, Bello e Itagüí, del Valle del Cauca, compuesto por Cali y Palmira. Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 <<summary, results=tex, echo=FALSE>>=
 library(stargazer)
 stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
-## estadisticos
-# nos interesa IDH, y poblacion cabecera y poblacion resto
-# no se puede secar tabla de frecuencia, 
-# solo estadisticos:
-# summary(colb)
+
 @
 
-El Programa de Naciones Unidas para el Desarrollo (PNUD) señala que Colombia tiene un alto desarrollo humano. El país ocupa el puesto 91 entre 186, en un informe que evalúa los logros de las naciones en educación y salud, y la disponibilidad de recursos para ofrecerles a sus habitantes un nivel de vida digno.
 
-En el Índice de Desarrollo Humano (IDH) en América Latina, Colombia se ubica en la casilla número 12, muy por debajo de Chile, Argentina, Uruguay y Cuba. Sólo supera a naciones como El Salvador, Guatemala y Bolivia. Según el informe en nuestro país los niños estudian en promedio 7,3 años, mientras el “período esperado de escolaridad” son 13,6.
-
-Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 \begin{figure}[h]
 
-<<hist, echo=FALSE,fig=TRUE>>=
+<<hist, echo=FALSE, fig=TRUE>>=
 par(mfrow=c(2,2))
 
 

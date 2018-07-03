@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  2 JUL 2018 22:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.28)  2 JUL 2018 22:13
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -811,62 +811,61 @@ Package pdftex.def Info: univariada-hist1.pdf  used on input line 41.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (bivariada.tex
-<bivariada-correl.pdf, id=20, 433.62pt x 433.62pt>
+) [3
+
+ <./univariada-hist.pdf>] [4 <./univariada-hist1.pdf>] (bivariada.tex
+<bivariada-correl.pdf, id=38, 433.62pt x 433.62pt>
 File: bivariada-correl.pdf Graphic file (type pdf)
 <use bivariada-correl.pdf>
 Package pdftex.def Info: bivariada-correl.pdf  used on input line 16.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-) (regresion.tex [3
+)
+[5
 
- <./univariada-hist.pdf>]
-Overfull \vbox (41.96774pt too high) has occurred while \output is active []
+ <./bivariada-correl.pdf>] (regresion.tex) [6
 
-
-[4 <./univariada-hist1.pdf> <./bivariada-correl.pdf>]) (espacial.tex
-<espacial-plotMap1.pdf, id=46, 433.62pt x 433.62pt>
+] (espacial.tex
+<espacial-plotMap1.pdf, id=56, 433.62pt x 433.62pt>
 File: espacial-plotMap1.pdf Graphic file (type pdf)
 <use espacial-plotMap1.pdf>
 Package pdftex.def Info: espacial-plotMap1.pdf  used on input line 20.
 (pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
 ) (matriz.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [5] [6 <./espacial-plotMap1.pdf>] (matriz.aux) ) 
+) [7
+
+ <./espacial-plotMap1.pdf>] (matriz.aux) ) 
 Here is how much of TeX's memory you used:
  4508 strings out of 493305
  65594 string characters out of 3128497
- 121500 words of memory out of 3000000
+ 120500 words of memory out of 3000000
  7905 multiletter control sequences out of 15000+200000
  32872 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,9n,37p,949b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Users/SANTIAGO/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SAN
-TIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pf
-b><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmmi10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmr10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SANTIAGO/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/SANTIA
-GO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C
-:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SANTIAGO/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/SANTIAGO/App
-Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Us
+<C:/Users/SANTIAGO/AppData/Local/Prog
+rams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/SANTIAGO/Ap
+pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Us
 ers/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmtt9.pfb>
-Output written on matriz.pdf (6 pages, 618140 bytes).
+mmi10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/SANTIAGO/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/SANTIAGO/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
+SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.
+pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr9.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmsy10.pfb><C:/Users/SANTIAGO/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/SANTIAGO/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/SANT
+IAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pf
+b><C:/Users/SANTIAGO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmtt9.pfb>
+Output written on matriz.pdf (7 pages, 618806 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
+ 110 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
