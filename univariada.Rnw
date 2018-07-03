@@ -24,13 +24,13 @@ stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = 
 # solo estadisticos:
 # summary(colb)
 @
-\centering
+
 
 
 
 
 \begin{figure}[h]
-\centering
+
 <<hist, echo=FALSE,fig=TRUE>>=
 par(mfrow=c(2,2))
 
@@ -51,7 +51,6 @@ hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valore
 Si quieren normalizar dado el sesgo de las poblaciones, se tranforma con logaritmo en case 10 y quedaria asi:
 
 \begin{figure}[h]
-\centering
 <<hist1, echo=FALSE,fig=TRUE>>=
 par(mfrow=c(1,2))
 

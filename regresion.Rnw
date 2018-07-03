@@ -1,11 +1,3 @@
-
-
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%Regresion
-
 \section{Modelos de Regresion}\label{regresion}
 
 <<getData, echo=FALSE>>=
