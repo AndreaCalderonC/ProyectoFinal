@@ -13,7 +13,7 @@ colb=read.csv(filename, stringsAsFactors = FALSE)
 #str(colb)
 @
 
-Teniendo en cuenta queel estudio se hizo para los 32 departamentos de Colombia
+La población de Colombia se concentra en las áreas andinas y en la costa del Atlántico, donde se aprecian los núcleos demográficos de la sabana de Bogotá, conformado por Bogotá y Soacha, del valle de Aburrá, que comprende a Medellín, Bello e Itagüí, del Valle del Cauca, compuesto por Cali y Palmira. Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 <<summary, results=tex, echo=FALSE>>=
 library(stargazer)
@@ -26,7 +26,7 @@ stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = 
 @
 
 
-
+\clearpage
 
 
 \begin{figure}[h]
