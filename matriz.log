@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 10:47
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -660,25 +660,25 @@ File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 (matriz.aux)
 \openout1 = `matriz.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
-LaTeX Font Info:    ... okay on input line 22.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 24.
+LaTeX Font Info:    ... okay on input line 24.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 24.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 24.
 
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 22.
+LaTeX Font Info:    ... okay on input line 24.
 
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf.m
 kii"
@@ -759,95 +759,270 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) (matriz-concordance.tex)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 25.
+(Font)              <7> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 25.
-LaTeX Font Info:    Try loading font information for T1+aett on input line 25.
+(Font)              <5> on input line 27.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 27.
 
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aett.fd"
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 25.
+(Font)              <9> on input line 27.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 25.
+(Font)              <6> on input line 27.
 
 [1
 
 {C:/Users/LENOVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-(univariada.tex
-<univariada-hist1.pdf, id=15, 433.62pt x 433.62pt>
-File: univariada-hist1.pdf Graphic file (type pdf)
-<use univariada-hist1.pdf>
-Package pdftex.def Info: univariada-hist1.pdf  used on input line 46.
-(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
+(bivariada.tex) (regresion.tex
+
+LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 4.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 4.
 
-LaTeX Font Info:    Try loading font information for TS1+aer on input line 51.
+) (espacial.tex
+! You can't use `macro parameter character #' in internal vertical mode.
+l.12 #
+       nombre de la variables que usar√É¬©:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 12.
 (C:/PROGRA~1/R/R-34~1.1/share/texmf/tex/latex\ts1aer.fd
 File: ts1aer.fd 
 )
 LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
-(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 51.
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 12.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.13 dimensions=c("NAME_
+                        1","IDH","cabeLog","restoLog")
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.14 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-Package natbib Warning: Citation `konrad-adenauer-stiftung_indice_2003' on page
- 2 undefined on input line 51.
+Overfull \hbox (66.31674pt too wide) in paragraph at lines 12--14
+[]\T1/aer/m/n/10 nombre de la vari-ables que us-ar√\TS1/cmr/m/n/10 ©\T1/aer/m/n
+/10 : dimensions=c("NAME$[]\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 
+"\OML/cmm/m/it/10 IDH\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "\OML/
+cmm/m/it/10 cabeLog\OT1/cmr/m/n/10 "\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 "\OML/cm
+m/m/it/10 restoLog\OT1/cmr/m/n/10 ")$ 
+ []
 
-[2
+! You can't use `macro parameter character #' in internal vertical mode.
+l.15 #
+       creo un nuevo data frame con esas:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
-]) [3 <./univariada-hist1.pdf>] (bivariada.tex) [4
+! Missing $ inserted.
+<inserted text> 
+                $
+l.16 dataCluster=mapCol_
+                        idh@data[,c(dimensions)]
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-] (regresion.tex
+! Missing $ inserted.
+<inserted text> 
+                $
+l.17 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
-LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 4.
+
+Overfull \hbox (13.7074pt too wide) in paragraph at lines 15--17
+[]\T1/aer/m/n/10 creo un nuevo data frame con esas: dataCluster=mapCol$[]\OML/c
+mm/m/it/10 dh\OT1/cmr/m/n/10 @\OML/cmm/m/it/10 data\OT1/cmr/m/n/10 [\OML/cmm/m/
+it/10 ; c\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 dimensions\OT1/cmr/m/n/10 )]$ 
+ []
+
+! You can't use `macro parameter character #' in internal vertical mode.
+l.18 #
+       como la data es numerica la normalizo (menos la column 1):
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in internal vertical mode.
+l.21 #
+      # APLICANDO TECNICA KMEANS
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in internal vertical mode.
+l.21 ##
+        APLICANDO TECNICA KMEANS
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in internal vertical mode.
+l.23 #
+       calculo 3 clusters
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! You can't use `macro parameter character #' in internal vertical mode.
+l.27 #
+      creo data frame con los clusters:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.29 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in internal vertical mode.
+l.30 #
+       a√É¬±ado columna con nombre de regiones
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.31 clusters$NAME_1=dataCluster$NAME_
+                                      1
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! You can't use `macro parameter character #' in math mode.
+l.33 #
+      hago el merge hacia el mapa:
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.35 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 4.
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+[]\T1/aer/m/n/10 a√\TS1/cmr/m/n/10 ±\T1/aer/m/n/10 ado columna con nom-bre de r
+e-giones
+ []
 
-) [5
 
-] (espacial.tex) (matriz.bbl
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+\T1/aer/m/n/10 clusters$\OML/cmm/m/it/10 NAME[] \OT1/cmr/m/n/10 = \OML/cmm/m/it
+/10 dataCluster$\T1/aer/m/n/10 NAME$[]\OML/cmm/m/it/10 names\OT1/cmr/m/n/10 (\O
+ML/cmm/m/it/10 clusters\OT1/cmr/m/n/10 ) =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--35
+\OML/cmm/m/it/10 c\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 cluster[];[] NAME[]\OT1/c
+mr/m/n/10 )\OML/cmm/m/it/10 hagoelmergehaciaelmapa \OT1/cmr/m/n/10 : \OML/cmm/m
+/it/10 mapCol[]dh \OT1/cmr/m/n/10 =
+ []
+
+) (matriz.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
 )
 
-Package natbib Warning: There were undefined citations.
+! LaTeX Error: \begin{figure} on input line 9 ended by \end{document}.
 
-[6
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
-] (matriz.aux)
+(matriz.aux)
 
 LaTeX Warning: There were undefined references.
 
- ) 
-Here is how much of TeX's memory you used:
- 4514 strings out of 493305
- 65246 string characters out of 3129367
- 122479 words of memory out of 3000000
- 7910 multiletter control sequences out of 15000+200000
- 33020 words of font info for 68 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 41i,8n,37p,1047b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\LENOVO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
-\tcrm1000.pk><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmbx10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/LENOVO/AppData/Local/Program
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/LENOVO/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/LE
-NOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
-><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr17.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/LENOVO/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/LENOVO/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on matriz.pdf (6 pages, 136178 bytes).
-PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 10 words of extra memory for PDF output out of 10000 (max. 10000000)
+! You can't use `\end' in internal vertical mode.
+\enddocument ... \endgroup \deadcycles \z@ \@@end 
+                                                  
+l.61 \end{document}
+                   
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
 
+
+! LaTeX Error: \begin{figure} on input line 9 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.61 \end{document}
+                   
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.61 \end{document}
+                   
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+)
+! Emergency stop.
+<*> ./matriz.tex
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 4492 strings out of 493305
+ 64881 string characters out of 3129367
+ 121431 words of memory out of 3000000
+ 7897 multiletter control sequences out of 15000+200000
+ 31382 words of font info for 63 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 41i,4n,37p,949b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!

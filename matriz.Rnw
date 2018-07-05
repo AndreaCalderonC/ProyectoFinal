@@ -1,4 +1,6 @@
 \documentclass{article}
+
+
 \usepackage[utf8]{inputenc}
 \usepackage{longtable}
 \usepackage{authblk}
@@ -32,11 +34,11 @@ En este trabajo se hace un análisis de la evolución del IDH como indicador soc
 
 El Índice de Desarrollo humano (IDH) es un indicador creado por el Programa de las Naciones Unidas para el Desarrollo (PNUD) con el fin de determinar el nivel de desarrollo que tienen los países del mundo.  Fue ideado con el objetivo de conocer, no sólo los ingresos económicos de las personas en un país, sino también para evaluar si el país aporta a sus ciudadanos un ambiente donde puedan desarrollar mejor o peor su proyecto y condiciones de vida. La principal amenaza al progreso en América Latina y El Caribe es la recaída de millones de hogares en la pobreza, pero la ralentización económica no es la única culpable de tal regresión. El informe presenta recomendaciones para que los países de la región -incluido Colombia- impidan retrocesos y siga avanzando en lo social, económico y ambiental, con políticas públicas de nueva generación, en línea con los Objetivos de Desarrollo Sostenible (ODS).
  
-Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
+%Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref{univariada}.
 
 \clearpage
 
-\input{univariada.tex}
+%\input{univariada.tex}
 
 \clearpage
 

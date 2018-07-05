@@ -174,9 +174,9 @@ stargazer(LinRegA,LinRegB,
 
 \section{ExploraciÃ³n Espacial}
 
-Como acabamos de ver en la Tabla \ref{regresiones} en la pÃ¡gina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podrÃ�amos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlaciÃ³n). 
+Como acabamos de ver en la Tabla \ref{regresiones} en la pÃ¡gina \pageref{regresiones}, si quisieras sintetizar la multidimensionalidad de nuestros indicadores, podrÃ?amos usar tres de las cuatro variables que tenemos (un par de las originales tiene demasiada correlaciÃ³n). 
 
-AsÃ�, propongo que calculemos conglomerados de paÃ�ses usando toda la informaciÃ³n de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeraciÃ³n donde las distancia serÃ¡n calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tÃ©cnica de {\bf medoides} segÃºn \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
+AsÃ?, propongo que calculemos conglomerados de paÃ?ses usando toda la informaciÃ³n de tres de los indicadores. Como nuestras variables son ordinales utilizaremos un proceso de conglomeraciÃ³n donde las distancia serÃ¡n calculadas usando la medida {\bf gower} propuestas en \cite{gower_general_1971}, y para los enlazamientos usaremos la tÃ©cnica de {\bf medoides} segÃºn \cite{reynolds_clustering_2006}. Los tres conglomerados se muestran en la Figura \ref{clustmap}.
 
 <<getMap, echo=FALSE,results=hide>>=
 library(rgdal)
@@ -244,7 +244,7 @@ legend('left', legend = c("Bajo","Alto","Medio"),
        title="Conglomerado")
 @
 
-\caption{Paises conglomerados segun sus indicadores sociopolÃ�ticos}\label{clustmap}
+\caption{Paises conglomerados segun sus indicadores sociopolÃ?ticos}\label{clustmap}
 \end{figure}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

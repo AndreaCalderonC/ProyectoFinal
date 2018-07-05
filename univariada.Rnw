@@ -25,17 +25,17 @@ La población de Colombia se concentra en las áreas andinas y en la costa del A
 
 Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
-%\begin{figure}[h]
-%<<hist, echo=FALSE,fig=TRUE>>=
-%par(mfrow=c(2,2))
-%paleta='red'
-%hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
-%hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
-%hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
-%@
-%\caption{Distribución de Indicadores}
-%\label{hist}
-%\end{figure}
+\begin{figure}[h]
+<<hist, echo=FALSE,fig=TRUE>>=
+par(mfrow=c(2,2))
+paleta='red'
+hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
+hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
+hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
+@
+\caption{Distribución de Indicadores}
+\label{hist}
+\end{figure}
 
 Esta concepción requiere que la medición del nivel de desarrollo humano de un determinado país, comunidad o grupo social, no se base solamente en componentes económicos que, aunque también son importantes considerar, constituyen una aproximación incompleta dado la complejidad del proceso señalado. Dentro del esquema propuesto por el PNUD se procura enfatizar en la gran divergencia existente entre niveles de riqueza material y de desarrollo humano. Por esta razón, el principal objetivo subyacente en la construcción del IDH es proporcionar referencias cuantitativas de las privaciones humanas y de las distancias existentes con respecto a metas posibles de alcanzar y monitorear la eficacia de las políticas en curso. 
 
