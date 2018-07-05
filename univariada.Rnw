@@ -28,19 +28,18 @@ Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Sant
 
 \begin{figure}[h]
 
-<<hist, echo=FALSE, fig=TRUE>>=
-par(mfrow=c(2,2))
+%<<hist, echo=FALSE, fig=TRUE>>=
+%par(mfrow=c(2,2))
 
+%demoTable=table(colb[,1])
+%demoTableRel=round(prop.table(demoTable)*100,1)
+%title='IDH'
+%paleta='red'
+%hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
+%hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
+%hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
 
-demoTable=table(colb[,1])
-demoTableRel=round(prop.table(demoTable)*100,1)
-title='IDH'
-paleta='red'
-hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
-hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
-hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
-
-@
+%@
 \caption{Distribuci?n de Indicadores}
 \label{hist}
 \end{figure}

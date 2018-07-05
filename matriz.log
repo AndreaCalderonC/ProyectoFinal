@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 09:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 10:02
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -657,7 +657,7 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
-No file matriz.aux.
+(matriz.aux)
 \openout1 = `matriz.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -674,6 +674,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
+
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -771,10 +772,6 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 25.
 
-
-Package natbib Warning: Citation `macqueen_methods_nodate' on page 1 undefined 
-on input line 34.
-
 [1
 
 {C:/Users/LENOVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -783,85 +780,68 @@ Overfull \hbox (62.11792pt too wide) in paragraph at lines 14--25
  [][] 
  []
 
-) (bivariada.tex) (regresion.tex
+<univariada-hist1.pdf, id=15, 433.62pt x 433.62pt>
+File: univariada-hist1.pdf Graphic file (type pdf)
+<use univariada-hist1.pdf>
+Package pdftex.def Info: univariada-hist1.pdf  used on input line 52.
+(pdftex.def)             Requested size: 276.00105pt x 276.0139pt.
 
-LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 4.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 57.
+(C:/PROGRA~1/R/R-34~1.1/share/texmf/tex/latex\ts1aer.fd
+File: ts1aer.fd 
+)
+LaTeX Font Info:    Font shape `TS1/aer/m/n' in size <10> not available
+(Font)              Font shape `TS1/cmr/m/n' tried instead on input line 57.
+ [2
+
+]) [3 <./univariada-hist1.pdf>] (bivariada.tex) [4
+
+] (regresion.tex
+
+LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 4.
 
 
-LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 4.
+LaTeX Warning: Reference `regresiones' on page 5 undefined on input line 4.
 
-) (espacial.tex) (matriz.bbl
+) [5
+
+] (espacial.tex) (matriz.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-)
+) [6
 
-Package natbib Warning: There were undefined citations.
-
-
-! LaTeX Error: \begin{figure} on input line 30 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-(matriz.aux)
+] (matriz.aux)
 
 LaTeX Warning: There were undefined references.
 
-! You can't use `\end' in internal vertical mode.
-\enddocument ... \endgroup \deadcycles \z@ \@@end 
-                                                  
-l.57 \end{document}
-                   
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-! LaTeX Error: \begin{figure} on input line 30 ended by \end{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.57 \end{document}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.57 \end{document}
-                   
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-)
-! Emergency stop.
-<*> ./matriz.tex
-                
-*** (job aborted, no legal \end found)
-
- 
+ ) 
 Here is how much of TeX's memory you used:
- 4474 strings out of 493305
- 64550 string characters out of 3129367
- 124431 words of memory out of 3000000
- 7877 multiletter control sequences out of 15000+200000
- 32685 words of font info for 67 fonts, out of 3000000 for 9000
+ 4514 strings out of 493305
+ 65214 string characters out of 3129367
+ 122487 words of memory out of 3000000
+ 7910 multiletter control sequences out of 15000+200000
+ 33020 words of font info for 68 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,8n,37p,997b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 41i,8n,37p,1002b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\LENOVO\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\tcrm1000.pk><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/LENOVO/AppData/Local/Program
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/LENOVO/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/LE
+NOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr17.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmr6.pfb><C:/Users/LENOVO/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/LENOVO/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/LENOVO/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on matriz.pdf (6 pages, 136498 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 10 words of extra memory for PDF output out of 10000 (max. 10000000)
+
