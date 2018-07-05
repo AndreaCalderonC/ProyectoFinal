@@ -51,6 +51,6 @@ El Índice de Desarrollo humano (IDH) es un indicador creado por el Programa de 
 
 \bibliographystyle{apalike}
 \renewcommand{\refname}{Bibliografia}
-\bibliography{Bibliografia}
+\bibliography{Bibl}
 
 \end{document}

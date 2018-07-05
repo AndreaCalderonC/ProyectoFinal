@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 09:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6630 64-bit) (preloaded format=pdflatex 2018.6.27)  5 JUL 2018 09:55
 entering extended mode
 **./matriz.tex
 (matriz.tex
@@ -657,23 +657,7 @@ LaTeX Font Info:    Try loading font information for T1+aer on input line 105.
 ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\ae\t1aer.fd"
 File: t1aer.fd 1997/11/16 Font definitions for T1/aer.
 ))))
-(matriz.aux
-
-! Package natbib Error: Bibliography not compatible with author-year citations.
-
-(natbib)                Press <return> to continue in numerical citation style.
-
-
-See the natbib package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.7 ...mmand\NAT@force@numbers{}\NAT@force@numbers
-                                                  
-Check the bibliography entries for non-compliant syntax,
-or select author-year BibTeX style, e.g. plainnat
-
-)
+No file matriz.aux.
 \openout1 = `matriz.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -690,7 +674,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 22.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 22.
- ("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+("C:\Users\LENOVO\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 22.
@@ -787,6 +771,10 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 25.
 
+
+Package natbib Warning: Citation `macqueen_methods_nodate' on page 1 undefined 
+on input line 34.
+
 [1
 
 {C:/Users/LENOVO/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -802,7 +790,14 @@ LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 4.
 
 LaTeX Warning: Reference `regresiones' on page 2 undefined on input line 4.
 
-) (espacial.tex) (matriz.bbl)
+) (espacial.tex) (matriz.bbl
+
+Package natbib Warning: Empty `thebibliography' environment on input line 3.
+
+)
+
+Package natbib Warning: There were undefined citations.
+
 
 ! LaTeX Error: \begin{figure} on input line 30 ended by \end{document}.
 
@@ -862,11 +857,11 @@ my insertion and my current dilemma will both disappear.
 
  
 Here is how much of TeX's memory you used:
- 4476 strings out of 493305
- 64680 string characters out of 3129367
- 124453 words of memory out of 3000000
- 7881 multiletter control sequences out of 15000+200000
- 32832 words of font info for 63 fonts, out of 3000000 for 9000
+ 4474 strings out of 493305
+ 64550 string characters out of 3129367
+ 124431 words of memory out of 3000000
+ 7877 multiletter control sequences out of 15000+200000
+ 32685 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,8n,37p,997b,309s stack positions out of 5000i,500n,10000p,200000b,50000s
 !  ==> Fatal error occurred, no output PDF file produced!
