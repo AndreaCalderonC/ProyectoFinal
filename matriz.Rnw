@@ -46,11 +46,13 @@ Comencemos viendo que hay en la sección \ref{univariada} en la página \pageref
 \input{regresion.tex}
 
 \clearpage
-
 \input{espacial.tex}
+
+
 
 \bibliographystyle{apalike}
 \renewcommand{\refname}{Bibliografia}
-\bibliography{Bibl}
+\bibliography{Bibel}
+
 
 \end{document}

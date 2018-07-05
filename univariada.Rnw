@@ -18,31 +18,24 @@ En el Índice de Desarrollo Humano (IDH) en América Latina, Colombia se ubica e
 
 <<summary, results=tex, echo=FALSE>>=
 library(stargazer)
-stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = c( "mean","median","sd","min","max"))
-
+stargazer(colb, title = "Medidas estadísticas", label = "stats",summary.stat = c( "mean","median","sd"))
 @
 
 La población de Colombia se concentra en las áreas andinas y en la costa del Atlántico, donde se aprecian los núcleos demográficos de la sabana de Bogotá, conformado por Bogotá y Soacha, del valle de Aburrá, que comprende a Medellín, Bello e Itagüí, del Valle del Cauca, compuesto por Cali y Palmira. Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
 Lo mismo que las ciudades de la Costa Atlántica, Cartagena, Barranquilla y Santa Marta. Al igual que los centros demográficos de Bucaramanga y Cúcuta en la zona de los Santanderes, el Eje cafetero, Huila y Tolima.
 
-\begin{figure}[h]
-
-%<<hist, echo=FALSE, fig=TRUE>>=
+%\begin{figure}[h]
+%<<hist, echo=FALSE,fig=TRUE>>=
 %par(mfrow=c(2,2))
-
-%demoTable=table(colb[,1])
-%demoTableRel=round(prop.table(demoTable)*100,1)
-%title='IDH'
 %paleta='red'
 %hist(colb$IDH,col=paleta, main = "IDH", xlab="Valores", ylab="Frecuencia")
 %hist(colb$Poblacion.Cabecera,col=paleta, main = "Poblacion Cabecera", xlab="Valores", ylab="Frecuencia")
 %hist(colb$Poblacion.Resto,col=paleta, main = "Poblacion del Resto", xlab="Valores", ylab="Frecuencia")
-
 %@
-\caption{Distribuci?n de Indicadores}
-\label{hist}
-\end{figure}
+%\caption{Distribución de Indicadores}
+%\label{hist}
+%\end{figure}
 
 Esta concepción requiere que la medición del nivel de desarrollo humano de un determinado país, comunidad o grupo social, no se base solamente en componentes económicos que, aunque también son importantes considerar, constituyen una aproximación incompleta dado la complejidad del proceso señalado. Dentro del esquema propuesto por el PNUD se procura enfatizar en la gran divergencia existente entre niveles de riqueza material y de desarrollo humano. Por esta razón, el principal objetivo subyacente en la construcción del IDH es proporcionar referencias cuantitativas de las privaciones humanas y de las distancias existentes con respecto a metas posibles de alcanzar y monitorear la eficacia de las políticas en curso. 
 
@@ -66,6 +59,6 @@ hist(colb$restoLog,col=paleta, main = "Poblacion del Resto", xlab="Valores Norma
 \label{hist1}
 \end{figure}
 
-Precisamente, en este trabajo se intenta realizar una descripción basada en la síntesis de los tres aspectos esenciales mencionados, motivados especialmente por cierta paradoja estadística que explicamos a continuación: desde que el PNUD iniciara el cálculo del IDH en 1990, Argentina se encuentra en el grupo de países con desarrollo humano ALTO, aunque su posición en el ránking mundial fue variando desde el puesto 43 en 1991 al Nº 30 en 1996 y al lugar Nº 39 en 1999, a tal punto de figurar entre los primeros puestos en el conjunto de países latinoamericanos. Pero, al tratarse de un promedio nacional, el indicador oculta importantes diferencias en la distribución regional y provincial de los distintos aspectos del desarrollo humano y por lo tanto merece que nos ocupemos de observar la situación real de las provincias y en forma particular de las que forman el Nordeste Colombiano.
+Precisamente, en este trabajo se intenta realizar una descripción basada en la síntesis de los tres aspectos esenciales mencionados, motivados especialmente por cierta paradoja estadística que explicamos a continuación: desde que el PNUD iniciara el cálculo del IDH en 1990, Argentina se encuentra en el grupo de países con desarrollo humano ALTO, aunque su posición en el ránking mundial fue variando desde el puesto 43 en 1991 al Nº 30 en 1996 y al lugar Nº 39 en 1999, a tal punto de figurar entre los primeros puestos en el conjunto de países latinoamericanos. Pero, al tratarse de un promedio nacional, el indicador oculta importantes diferencias en la distribución regional y provincial de los distintos aspectos del desarrollo humano y por lo tanto merece que nos ocupemos de observar la situación real de las provincias y en forma particular de las que forman el Nordeste Colombiano \cite{konrad-adenauer-stiftung_indice_2003} . 
 
 \endinput
