@@ -31,5 +31,7 @@ stargazer(LinRegA,LinRegB,
           label = "regresiones")
 @
 
+Catorce millones de colombianos sobreviven con menos de dos dólares diarios. En total, 64 de cada 100 colombianos están en el umbral de pobreza y algunas regiones padecen niveles casi africanos, como el Chocó.
 
+Según la encuesta de salud sexual y reproductiva de PROFAMILIA del año 2005, la sociedad colombiana ha cambiado radicalmente en los últimos 50 años, con descenso de la tasa global de fecundidad de 6.8 a 2.4, el de mortalidad bruta de 16.7 a 5.5 y el de mortalidad infantil de 123.2 a 25.6 (aún vergonzosa). La esperanza de vida de los colombianos aumentó de 50.6 a 72.2 años, pero también son vergonzosas las diferencias regionales y entre estratos sociales. La mortalidad infantil en el Chocó es tan alta como la africana. Hay 10 puntos de diferencia entre la mortalidad infantil urbana y la rural. El problema de desnutrición infantil continúa sin atención y 12 porciento de los niños son desnutridos crónicos.
 \endinput

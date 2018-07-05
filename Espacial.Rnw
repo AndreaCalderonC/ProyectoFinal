@@ -14,7 +14,6 @@ colb$restoLog=log(colb$Poblacion.Resto)
 #str(colb)
 @
 
-Según la encuesta de salud sexual y reproductiva de PROFAMILIA del año 2005, la sociedad colombiana ha cambiado radicalmente en los últimos 50 años, con descenso de la tasa global de fecundidad de 6.8 a 2.4, el de mortalidad bruta de 16.7 a 5.5 y el de mortalidad infantil de 123.2 a 25.6 (aún vergonzosa). La esperanza de vida de los colombianos aumentó de 50.6 a 72.2 años, pero también son vergonzosas las diferencias regionales y entre estratos sociales. La mortalidad infantil en el Chocó es tan alta como la africana. Hay 10 puntos de diferencia entre la mortalidad infantil urbana y la rural. El problema de desnutrición infantil continúa sin atención y 12 porciento de los niños son desnutridos crónicos.
 
 <<getMap, echo=FALSE,results=hide>>=
 library(rgdal)
@@ -27,32 +26,6 @@ mapCol_idh=merge(mapCol,sub_colb, by.x='NAME_1', by.y='Departamento',all.x=F)
 @
 
 Nuevos estudios sugieren que el estrés de ser pobre tiene una peligrosa influencia en la salud. Cuando se comparan los estados socioeconómicos altos y bajos, el riesgo de algunas enfermedades es diez veces mayor. Las personas de estrato socioeconómico bajo tienen dramáticamente más riesgo de enfermar y expectativa de vida más corta.
-
-%<<echo=FALSE>>=
-# nombre de la variables que usarÃ©:
-dimensions=c("NAME_1","IDH","cabeLog","restoLog")
-
-# creo un nuevo data frame con esas:
-dataCluster=mapCol_idh@data[,c(dimensions)]
-
-# como la data es numerica la normalizo (menos la column 1):
-dataCluster[,-1]=scale(dataCluster[,-1])
-
-## APLICANDO TECNICA KMEANS
-
-# calculo 3 clusters
-
-resultado=kmeans(dataCluster[,-1],3)
-
-#creo data frame con los clusters:
-clusters=as.data.frame(resultado$cluster)
-
-# aÃ±ado columna con nombre de regiones
-clusters$NAME_1=dataCluster$NAME_1
-names(clusters)=c('cluster','NAME_1')
-#hago el merge hacia el mapa:
-mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
-@
 
 
 <<echo=FALSE>>=
@@ -79,11 +52,8 @@ clusters$NAME_1=dataCluster$NAME_1
 names(clusters)=c('cluster','NAME_1')
 #hago el merge hacia el mapa:
 mapCol_idh=merge(mapCol_idh,clusters, by='NAME_1',all.x=F)
-@
 
 
-\begin{figure}[h]
-<<plotMap1, echo=FALSE, fig=TRUE>>=
 library(RColorBrewer)
 library(classInt)
 #Variable a colorear
@@ -94,14 +64,19 @@ aggregate(mapCol_idh@data[,c(10,11,12)],by=list(mapCol_idh@data$cluster),FUN=mea
 numberOfClasses = length(unique(varToPLot)) 
 colorForScale='Set2'
 paleta = brewer.pal(numberOfClasses, colorForScale)
+@
+
+
+\begin{figure}[h]
+<<plotMap1, echo=FALSE, fig=TRUE>>=
 
 # grafico mapa basico
 plot(mapCol,col='grey',border=0)
 
 plot(mapCol_idh,main="Clasificacion de departamentos por IDH", col = paleta[varToPLot],border=F,add=T)
 legend('left', legend = c("Bajo","Alto","Medio"),
-       fill = paleta, 
-       cex = 0.6, 
+       fill = paleta,  
+       cex = 1,
        bty = "n",
        title="Conglomerado")
 @
